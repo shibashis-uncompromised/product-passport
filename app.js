@@ -18,6 +18,14 @@
   let lot=params.get('lot') || (routeMatch ? routeMatch[1] : data.lotId);
   try {lot=decodeURIComponent(lot);} catch {lot='invalid';}
   if(lot !== data.lotId){$('#passport-shell').hidden=true;$('#unavailable').hidden=false;document.title='Record unavailable | Uncompromised';return;}
+  const loader=$('#scan-screen');
+  if(loader){
+    const shell=$('#passport-shell');
+    loader.hidden=false;
+    shell.inert=true;
+    // A bounded intro: the record remains usable if later initialization fails.
+    window.setTimeout(()=>{loader.hidden=true;shell.inert=false;},750);
+  }
   const sections=$$('.record-section');
   const links=$$('.jump-nav a');
   const header=$('.site-header');
