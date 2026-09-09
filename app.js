@@ -80,9 +80,24 @@
   window.addEventListener('wheel',finishNavigation,{passive:true});
   window.addEventListener('touchstart',finishNavigation,{passive:true});
   window.addEventListener('resize',()=>updateProgress(false));
+  // When a section with a pinned (sticky) header is collapsed, the content above the
+  // fold is removed and the scroll position would otherwise fall through toward the
+  // footer. Anchor the just-collapsed header at the exact viewport position it had when
+  // the user clicked, so nothing appears to move.
+  let pendingCollapseTop=null;
+  function recordCollapseAnchor(summary){pendingCollapseTop=summary.getBoundingClientRect().top;}
+  function keepPinnedOnCollapse(details){
+    const summary=details.querySelector('summary');
+    if(details.open||!summary){pendingCollapseTop=null;return;}
+    const anchorTop=pendingCollapseTop!=null?pendingCollapseTop:header.offsetHeight;
+    pendingCollapseTop=null;
+    const rectTop=summary.getBoundingClientRect().top;
+    if(Math.abs(rectTop-anchorTop)<1)return;
+    window.scrollTo({top:Math.max(0,Math.round(window.scrollY+rectTop-anchorTop)),behavior:'instant'});
+  }
   sections.forEach(section=>{
-    section.querySelector('summary').addEventListener('click',()=>{finishNavigation();setActiveSection(section);});
-    section.addEventListener('toggle',()=>updateProgress(false));
+    section.querySelector('summary').addEventListener('click',event=>{recordCollapseAnchor(event.currentTarget);finishNavigation();setActiveSection(section);});
+    section.addEventListener('toggle',()=>{keepPinnedOnCollapse(section);updateProgress(false);});
   });
   updateProgress();
   const photoDialog=$('#photo-dialog');const mapDialog=$('#map-dialog');
@@ -139,9 +154,11 @@
     openDialog(reportDialog,chip);
   }));
   const disclosures=[...sections,$('#time-log')];
+  $('#time-log').querySelector('summary').addEventListener('click',event=>recordCollapseAnchor(event.currentTarget));
   $('#time-log').addEventListener('toggle',()=>{
     const timeline=$('#time-log');
     timeline.querySelector('summary').setAttribute('aria-label',timeline.open?'See less activity entries':'See more activity entries');
+    keepPinnedOnCollapse(timeline);
     updateProgress(false);
   });
   const printState=new Map();
