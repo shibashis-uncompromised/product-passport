@@ -80,24 +80,36 @@
   window.addEventListener('wheel',finishNavigation,{passive:true});
   window.addEventListener('touchstart',finishNavigation,{passive:true});
   window.addEventListener('resize',()=>updateProgress(false));
-  // When a section with a pinned (sticky) header is collapsed, the content above the
-  // fold is removed and the scroll position would otherwise fall through toward the
-  // footer. Anchor the just-collapsed header at the exact viewport position it had when
-  // the user clicked, so nothing appears to move.
-  let pendingCollapseTop=null;
-  function recordCollapseAnchor(summary){pendingCollapseTop=summary.getBoundingClientRect().top;}
-  function keepPinnedOnCollapse(details){
+  // Smoothly fold a disclosure open/closed by animating its content height, while keeping
+  // the (sticky) header anchored at the exact viewport position it had on click. This
+  // avoids the abrupt native snap and stops a deep-scrolled collapse from jumping to the
+  // footer — the content folds up in place instead.
+  const COLLAPSE_MS=320;
+  const animating=new WeakMap();
+  const contentOf=details=>details.querySelector('.section-content,.timeline-content');
+  const easeInOut=p=>p<0.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+  function animateDisclosure(details,toOpen){
     const summary=details.querySelector('summary');
-    if(details.open||!summary){pendingCollapseTop=null;return;}
-    const anchorTop=pendingCollapseTop!=null?pendingCollapseTop:header.offsetHeight;
-    pendingCollapseTop=null;
-    const rectTop=summary.getBoundingClientRect().top;
-    if(Math.abs(rectTop-anchorTop)<1)return;
-    window.scrollTo({top:Math.max(0,Math.round(window.scrollY+rectTop-anchorTop)),behavior:'instant'});
+    const content=contentOf(details);
+    const running=animating.get(details);if(running)running.stop(true);
+    if(!content){details.open=toOpen;return;}
+    const anchorTop=summary.getBoundingClientRect().top;
+    const anchor=()=>{const diff=summary.getBoundingClientRect().top-anchorTop;if(Math.abs(diff)>0.5)window.scrollTo({top:Math.max(0,Math.round(window.scrollY+diff)),behavior:'instant'});};
+    if(toOpen&&!details.open)details.open=true;              // reveal so the content is measurable
+    const natural=content.offsetHeight;
+    if(reduced()){if(!toOpen)details.open=false;anchor();return;}
+    const startH=toOpen?0:natural,endH=toOpen?natural:0;
+    content.style.overflow='hidden';content.style.height=startH+'px';void content.offsetHeight;
+    const t0=performance.now();const rec={};let done=false;
+    const finish=cancelled=>{if(done)return;done=true;clearTimeout(rec.safety);content.style.height='';content.style.overflow='';if(!cancelled&&!toOpen)details.open=false;anchor();if(animating.get(details)===rec)animating.delete(details);};
+    const frame=now=>{if(done)return;const p=Math.min(1,(now-t0)/COLLAPSE_MS),e=easeInOut(p);content.style.height=(startH+(endH-startH)*e)+'px';anchor();if(p<1)rec.raf=requestAnimationFrame(frame);else finish(false);};
+    rec.stop=finish;rec.safety=setTimeout(()=>finish(false),COLLAPSE_MS+400);rec.raf=requestAnimationFrame(frame);
+    animating.set(details,rec);
   }
+  function toggleDisclosure(details){const next=!details.open;animateDisclosure(details,next);return next;}
   sections.forEach(section=>{
-    section.querySelector('summary').addEventListener('click',event=>{recordCollapseAnchor(event.currentTarget);finishNavigation();setActiveSection(section);});
-    section.addEventListener('toggle',()=>{keepPinnedOnCollapse(section);updateProgress(false);});
+    section.querySelector('summary').addEventListener('click',event=>{event.preventDefault();finishNavigation();if(toggleDisclosure(section))setActiveSection(section);});
+    section.addEventListener('toggle',()=>updateProgress(false));
   });
   updateProgress();
   const photoDialog=$('#photo-dialog');const mapDialog=$('#map-dialog');
@@ -154,11 +166,10 @@
     openDialog(reportDialog,chip);
   }));
   const disclosures=[...sections,$('#time-log')];
-  $('#time-log').querySelector('summary').addEventListener('click',event=>recordCollapseAnchor(event.currentTarget));
+  $('#time-log').querySelector('summary').addEventListener('click',event=>{event.preventDefault();finishNavigation();toggleDisclosure($('#time-log'));});
   $('#time-log').addEventListener('toggle',()=>{
     const timeline=$('#time-log');
     timeline.querySelector('summary').setAttribute('aria-label',timeline.open?'See less activity entries':'See more activity entries');
-    keepPinnedOnCollapse(timeline);
     updateProgress(false);
   });
   const printState=new Map();
