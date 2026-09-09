@@ -117,6 +117,22 @@ main{padding-top:16px}
 .time-log+.closing{margin-top:30px}@media(max-width:540px){.time-log+.closing{margin-top:24px}}
 
 /* Sticky section headers: keep the title + collapse toggle pinned under the top bar while scrolling within an open section, so a section can be minimized from anywhere. */
-.record-section>summary{position:sticky;top:var(--header-height);z-index:15;background:var(--ground)}
-.record-section[open]>summary{border-bottom:1px solid var(--rule)}
-@media print{.record-section>summary{position:static;border-bottom:0}}
+.record-section>summary,.time-log>.timeline-toggle{position:sticky;top:var(--header-height);z-index:15;background:var(--ground)}
+.record-section[open]>summary,.time-log[open]>.timeline-toggle{border-bottom:1px solid var(--rule)}
+@media print{.record-section>summary,.time-log>.timeline-toggle{position:static;border-bottom:0}}
+
+/* Clickable input chips open a per-input lab test report dialog. */
+.input-chip{font:12px/1.5 var(--mono);color:var(--ink);border:1px solid var(--rule);background:transparent;padding:6px 9px;cursor:pointer;border-radius:0;display:inline-flex;align-items:center;gap:0;transition:border-color .16s,background .16s,color .16s}
+.input-chip b{color:var(--accent);font-weight:400;margin-left:4px}
+.input-chip:hover{border-color:var(--muted);background:var(--surface)}
+.input-chip:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.report-dialog{width:560px}
+.report-figure{margin:0;height:260px;background:var(--surface);position:relative;overflow:hidden}
+.report-figure img{width:100%;height:100%;object-fit:cover}
+.report-figure figcaption{position:absolute;inset:auto 0 0 0;padding:8px 12px;background:#050505b3;font:10px/1.5 var(--mono);color:var(--muted)}
+.report-copy{padding:24px}
+.report-copy>.eyebrow{display:block;margin-bottom:8px;font-size:11px}
+#report-summary{color:var(--muted);margin:0 0 18px;font-size:15px}
+.report-disclaimer{margin-top:14px}
+@media(max-width:540px){.report-figure{height:200px}.report-copy{padding:18px}#report-summary{font-size:14px}}
+html[data-theme=light] .report-figure figcaption{background:#faf8f3cc;color:#555}

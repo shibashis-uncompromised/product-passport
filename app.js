@@ -117,6 +117,27 @@
     openDialog(mapDialog,event.currentTarget);
     if(!$('#interactive-map iframe')){const frame=document.createElement('iframe');frame.title='Interactive OpenStreetMap showing Sarai 1 farm';frame.referrerPolicy='no-referrer';frame.loading='lazy';frame.src='https://www.openstreetmap.org/export/embed.html?bbox=73.9489%2C24.5936%2C73.9729%2C24.6096&layer=mapnik&marker=24.601660%2C73.960907';$('#interactive-map').append(frame);}
   });
+  const reportDialog=$('#report-dialog');
+  const inputReports={
+    'Amino acid':{count:'5 applications logged',summary:'Foliar amino-acid biostimulant. Batch tested for free amino-acid content and heavy-metal residue; results within specification and cleared for use on the chickpea crop.',report:'https://example.com/lab-report/amino-acid',image:'assets/field-03.jpg',caption:'Sample drawn 18 Nov 2025 · Lab ref UC-LAB-2251'},
+    'PDR':{count:'4 applications logged',summary:'Plant defence resistance formulation. Screened for microbial load and pesticide contamination; no prohibited actives detected. Suitable for the residue-free programme.',report:'https://example.com/lab-report/pdr',image:'assets/field-07.jpg',caption:'Sample drawn 02 Dec 2025 · Lab ref UC-LAB-2263'},
+    'Sunfert':{count:'2 applications logged',summary:'Micronutrient blend. Assayed for guaranteed N-P-K and chelated micronutrient levels; label claims verified within tolerance.',report:'https://example.com/lab-report/sunfert',image:'assets/field-09.jpg',caption:'Sample drawn 09 Dec 2025 · Lab ref UC-LAB-2270'},
+    'Potassium humate':{count:'1 application logged',summary:'Soil conditioner. Tested for humic and fulvic acid fraction and solubility; conforms to the supplied certificate of analysis.',report:'https://example.com/lab-report/potassium-humate',image:'assets/field-11.jpg',caption:'Sample drawn 26 Dec 2025 · Lab ref UC-LAB-2288'},
+    'Seaweed extract':{count:'1 application logged',summary:'Ascophyllum-based biostimulant. Checked for alginate content and absence of synthetic growth regulators; passed all screens.',report:'https://example.com/lab-report/seaweed-extract',image:'assets/field-13.jpg',caption:'Sample drawn 26 Dec 2025 · Lab ref UC-LAB-2289'},
+    'Jeevamrit':{count:'1 application logged',summary:'On-farm microbial ferment. Microbial diversity and pathogen screen recorded; no E. coli or Salmonella detected in the tested batch.',report:'https://example.com/lab-report/jeevamrit',image:'assets/field-15.jpg',caption:'Sample drawn 04 Jan 2026 · Lab ref UC-LAB-2301'},
+    'Microalgal extract':{count:'1 application logged',summary:'Microalgae-derived foliar input. Verified for chlorophyll and protein fraction; heavy-metal residue below detection limits.',report:'https://example.com/lab-report/microalgal-extract',image:'assets/field-17.jpg',caption:'Sample drawn 11 Jan 2026 · Lab ref UC-LAB-2312'},
+    'Beauveria bassiana':{count:'1 application logged',summary:'Entomopathogenic fungal biocontrol. Spore viability count and contaminant screen recorded; colony-forming units meet the label guarantee.',report:'https://example.com/lab-report/beauveria-bassiana',image:'assets/field-19.jpg',caption:'Sample drawn 18 Jan 2026 · Lab ref UC-LAB-2324'}
+  };
+  $$('.input-chip').forEach(chip=>chip.addEventListener('click',()=>{
+    const key=chip.dataset.input;const r=inputReports[key]||{};
+    $('#report-title').textContent=key;
+    $('#report-count').textContent=r.count||'';
+    $('#report-summary').textContent=r.summary||'A lab test report summary for this input will appear here.';
+    const link=$('#report-link');link.href=r.report||'#';
+    const img=$('#report-image');img.src=r.image||'assets/field-01.jpg';img.alt=`${key} lab sample photograph`;
+    $('#report-caption').textContent=r.caption||'';
+    openDialog(reportDialog,chip);
+  }));
   const disclosures=[...sections,$('#time-log')];
   $('#time-log').addEventListener('toggle',()=>{
     const timeline=$('#time-log');
