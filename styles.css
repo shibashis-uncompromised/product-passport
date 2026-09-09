@@ -91,3 +91,32 @@ main{padding-top:16px}
 }
 @media(max-width:360px){.header-inner{padding-left:16px;padding-right:16px}.jump-nav a{font-size:11px;gap:5px}.timeline-toggle h2{font-size:21px}.timeline-toggle{gap:8px}}
 @media print{.timeline-content{display:block!important}.timeline-toggle .expand-icon{display:none}}
+
+/* A fading first-entry preview invites readers into the full activity record. */
+.time-log{border-bottom:0}
+.timeline-toggle{display:block;min-height:0;padding:18px 0 0}
+.timeline-title-row{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px}
+.timeline-toggle:hover h2{color:var(--ink)}
+.timeline-preview{position:relative;isolation:isolate;height:112px;overflow:hidden;pointer-events:none;user-select:none}.timeline-preview:after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(to bottom,transparent 12%,var(--ground) 96%)}
+.timeline-preview-row{display:grid;grid-template-columns:68px 96px minmax(0,1fr);gap:20px;padding:0 0 22px;margin:0 0 18px}
+.preview-photo{width:96px;height:132px;background:var(--surface);overflow:hidden}
+.preview-photo img{width:100%;height:100%;object-fit:cover;filter:saturate(.8)}
+.timeline-reveal{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;width:fit-content;min-width:0;margin:-2px auto 0;padding:10px 8px;border:0;border-radius:0;background:transparent;color:var(--accent);font:500 12px/1.5 var(--mono)}
+.timeline-reveal:hover>span{text-decoration:underline;text-underline-offset:5px}
+.see-less-label{display:none}
+.time-log[open] .timeline-preview,.time-log[open] .see-more-label{display:none}
+.time-log[open] .see-less-label{display:inline}
+.time-log[open] .timeline-reveal{margin:0 auto 18px}
+.time-log[open] .timeline-reveal svg{transform:rotate(180deg)}
+.time-log .timeline{border-top:0}
+.time-log .timeline-event:first-child{padding-top:0}
+@media(max-width:540px){.timeline-title-row{gap:12px;margin-bottom:18px}.timeline-preview{height:96px}.timeline-preview-row{grid-template-columns:46px 68px minmax(0,1fr);gap:12px;padding-bottom:19px;margin-bottom:14px}.preview-photo{width:68px;height:112px}.timeline-reveal{font-size:11px;min-width:0}}
+@media(max-width:360px){.timeline-preview-row{grid-template-columns:42px 58px minmax(0,1fr);gap:9px}.preview-photo{width:58px;height:112px}}
+@media print{.timeline-preview,.timeline-reveal{display:none!important}}
+
+.time-log+.closing{margin-top:30px}@media(max-width:540px){.time-log+.closing{margin-top:24px}}
+
+/* Sticky section headers: keep the title + collapse toggle pinned under the top bar while scrolling within an open section, so a section can be minimized from anywhere. */
+.record-section>summary{position:sticky;top:var(--header-height);z-index:15;background:var(--ground)}
+.record-section[open]>summary{border-bottom:1px solid var(--rule)}
+@media print{.record-section>summary{position:static;border-bottom:0}}

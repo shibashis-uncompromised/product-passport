@@ -118,7 +118,11 @@
     if(!$('#interactive-map iframe')){const frame=document.createElement('iframe');frame.title='Interactive OpenStreetMap showing Sarai 1 farm';frame.referrerPolicy='no-referrer';frame.loading='lazy';frame.src='https://www.openstreetmap.org/export/embed.html?bbox=73.9489%2C24.5936%2C73.9729%2C24.6096&layer=mapnik&marker=24.601660%2C73.960907';$('#interactive-map').append(frame);}
   });
   const disclosures=[...sections,$('#time-log')];
-  $('#time-log').addEventListener('toggle',()=>updateProgress(false));
+  $('#time-log').addEventListener('toggle',()=>{
+    const timeline=$('#time-log');
+    timeline.querySelector('summary').setAttribute('aria-label',timeline.open?'See less activity entries':'See more activity entries');
+    updateProgress(false);
+  });
   const printState=new Map();
   window.addEventListener('beforeprint',()=>disclosures.forEach(s=>{printState.set(s,s.open);s.open=true;}));
   window.addEventListener('afterprint',()=>disclosures.forEach(s=>{s.open=printState.get(s)??s.open;}));

@@ -76,3 +76,13 @@ The header contains the original Uncompromised mark, Product passport and the th
 The activity log is a native, keyboard-accessible disclosure and begins closed, with its entry count visible. Its contents open for event deep links and printing. The extra “Six months / One photo per event” label is removed. The header uses a balanced brand row with a softer theme control and a compact continuous tab row; the selected section has a turmeric underline and matching text.
 
 The reading progress bar has been removed; the gold underline now belongs exclusively to the active navigation tab. Scroll-based section highlighting is retained.
+
+## Opening loader restored
+
+Every valid page opening or refresh now shows the themed Uncompromised wordmark and opening spinner for 750 milliseconds. The loader is hidden when JavaScript is unavailable, honours reduced-motion styling, and releases the record on a fixed timer even if later initialization fails. It does not restore the reading progress bar. The default record and timeline remain collapsed; explicit section links continue to open their target.
+
+## Timeline preview
+
+The collapsed activity log shows a non-interactive preview of the first activity images and captions, fading towards the bottom. “See more” expands the complete 24-entry log; “See less” collapses it. The preview is hidden from assistive technology to avoid duplicate records, while the native disclosure announces its expanded state. The timeline heading and first entry no longer have a separating rule.
+
+The timeline fade now uses a theme-coloured gradient overlay across a cropped image and its caption, rather than fading empty space below a complete image. See more / See less are unboxed text controls with chevrons.
