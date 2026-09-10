@@ -136,3 +136,13 @@ main{padding-top:16px}
 .report-disclaimer{margin-top:14px}
 @media(max-width:540px){.report-figure{height:200px}.report-copy{padding:18px}#report-summary{font-size:14px}}
 html[data-theme=light] .report-figure figcaption{background:#faf8f3cc;color:#555}
+
+/* Item identity uses a real product photograph in a wider box. The plate takes its height
+   from the details column (align-items:stretch), and the photo fills it via an absolutely
+   positioned img, so the image bottom concludes level with the Batch ID row. */
+.item-photo-plate{margin:0;background:var(--surface);overflow:hidden;position:relative}
+.item-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.product-identity{grid-template-columns:220px minmax(0,1fr);gap:26px;align-items:stretch}
+@media(min-width:1000px){.product-identity{grid-template-columns:240px minmax(0,1fr);gap:30px}}
+@media(max-width:540px){.product-identity{grid-template-columns:150px minmax(0,1fr);gap:16px}}
+@media(max-width:360px){.product-identity{grid-template-columns:124px minmax(0,1fr);gap:13px}}
