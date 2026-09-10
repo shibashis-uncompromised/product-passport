@@ -339,7 +339,7 @@ window.PASSPORT_DATA = {
       "id": "event-24",
       "date": "10 Apr 2026",
       "category": "Packing",
-      "description": "Whole chickpea packed in 1 kg units and assigned batch UNC-B-000000004821. Pack and lot codes linked to this passport.",
+      "description": "Kala chana packed in 1 kg units and assigned batch UNC-B-000000004821. Pack and lot codes linked to this passport.",
       "status": "Sample",
       "plots": [],
       "shared": false,
@@ -347,7 +347,7 @@ window.PASSPORT_DATA = {
       "demo": true,
       "photoReference": true,
       "photoSourceDate": "05 Apr 2026",
-      "photoCaption": "Whole chickpea packed in 1 kg units and assigned batch UNC-B-000000004821. Pack and lot codes linked to this passport."
+      "photoCaption": "Kala chana packed in 1 kg units and assigned batch UNC-B-000000004821. Pack and lot codes linked to this passport."
     }
   ],
   "photoCount": 24,
