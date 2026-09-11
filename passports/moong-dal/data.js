@@ -3,7 +3,7 @@ window.PASSPORT_DATA = {
   "hindi": "मूंग दाल",
   "crop": "Moong",
   "cropHindi": "मूंग",
-  "classification": "Not recorded",
+  "classification": "",
   "seasons": [],
   "farm": "Sarai 1",
   "farmLabel": "Sarai 1",
@@ -128,7 +128,7 @@ window.PASSPORT_DATA = {
       "id": "event-06",
       "date": "08 Jun 2026",
       "category": "Harvesting",
-      "description": "Do harvesting of moong pods.",
+      "description": "Harvesting of moong pods.",
       "plots": [
         "B1"
       ],
