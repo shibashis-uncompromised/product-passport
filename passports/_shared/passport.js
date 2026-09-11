@@ -1,5 +1,11 @@
 (() => {
   'use strict';
+  // Always open a passport at the top (e.g. arriving from a QR/short-link), unless
+  // the URL carries a section deep-link. Prevents the browser from restoring a
+  // previous scroll position on reload / back-forward / bfcache.
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  if (!location.hash) window.scrollTo(0, 0);
+  window.addEventListener('pageshow', () => { if (!location.hash) window.scrollTo(0, 0); });
   const $ = (selector) => document.querySelector(selector);
   const $$ = (selector) => [...document.querySelectorAll(selector)];
   const data = window.PASSPORT_DATA;
