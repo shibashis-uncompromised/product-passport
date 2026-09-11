@@ -3,7 +3,7 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/p/:id", "destination": "/p/index.html" }
+    { "source": "/p/:id", "destination": "/p-loader.html" }
   ],
   "headers": [
     {
