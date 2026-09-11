@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#050505">
+<meta name="robots" content="noindex">
+<title>Opening passport… — Uncompromised</title>
+<link rel="icon" href="/assets/mark-dark.svg">
+<link rel="stylesheet" href="/passports/_shared/passport.css">
+<style>
+  .loader-brand{width:180px;height:auto;margin-bottom:6px}
+  .loader-num{font:13px/1.5 var(--mono);color:var(--accent)}
+  .not-found{display:none;flex-direction:column;align-items:center;gap:14px;text-align:center;max-width:340px}
+  .not-found h1{font:28px/1.2 var(--serif)}
+  .not-found p{color:var(--muted);font-size:14px}
+  .not-found a{display:inline-flex;align-items:center;gap:8px;margin-top:6px;
+    border:1px solid var(--rule);padding:11px 16px;text-decoration:none;font:12px/1.5 var(--mono)}
+  .not-found a:hover{border-color:var(--accent);color:var(--accent)}
+</style>
+</head>
+<body>
+<!-- Loader: shown while we resolve the number and hand off to the passport. -->
+<div class="scan-screen" id="loader">
+<img src="/assets/wordmark-dark.svg" class="loader-brand theme-dark" alt="Uncompromised">
+<img src="/assets/wordmark-light.svg" class="loader-brand theme-light" alt="Uncompromised">
+<span class="scan-spinner" aria-hidden="true"></span>
+<strong id="loader-name">Opening passport…</strong>
+<span class="eyebrow loader-num" id="loader-num"></span>
+</div>
+
+<!-- Fallback: shown only if the number doesn't match a product. -->
+<div class="scan-screen" id="missing" hidden>
+<div class="not-found" style="display:flex">
+<img src="/assets/wordmark-dark.svg" class="loader-brand theme-dark" alt="Uncompromised">
+<img src="/assets/wordmark-light.svg" class="loader-brand theme-light" alt="Uncompromised">
+<h1>Passport not found</h1>
+<p id="missing-msg">That code isn't linked to a product.</p>
+<a href="/">← See all products</a>
+</div>
+</div>
+
+<script src="/products.js"></script>
+<script>
+(function () {
+  // Match the stored theme immediately so the loader doesn't flash.
+  try {
+    var t = localStorage.getItem('passport-theme') ||
+            (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.theme = t;
+    if (t === 'light') document.querySelector('meta[name="theme-color"]').content = '#faf8f3';
+  } catch (e) {}
+
+  // Read the number from /p/<n>. The ?id=<n> and #<n> forms also work as a
+  // fallback for hosts without the /p/:id rewrite (e.g. opening the file locally).
+  function getNumber() {
+    var m = location.pathname.match(/\/p\/(\d{1,4})\/?$/);
+    if (m) return m[1];
+    var q = new URLSearchParams(location.search).get('id');
+    if (q) return q;
+    var h = location.hash.match(/(\d{1,4})/);
+    return h ? h[1] : null;
+  }
+
+  var n = getNumber();
+  var product = n && window.PRODUCT_BY_N ? window.PRODUCT_BY_N[n] : null;
+
+  if (!product) {
+    document.getElementById('loader').hidden = true;
+    var missing = document.getElementById('missing');
+    missing.hidden = false;
+    document.getElementById('missing-msg').textContent =
+      n ? 'Code ' + n + " isn't linked to a product yet." : 'No product code was given.';
+    return;
+  }
+
+  // Fill the loader, then hand off to the real passport page. The passport folder
+  // keeps its own relative assets, so we send the browser to its own path.
+  document.getElementById('loader-name').textContent = 'Opening ' + product.name + ' passport…';
+  document.getElementById('loader-num').textContent = product.hindi + ' · /p/' + product.n;
+  document.title = 'Opening ' + product.name + '… — Uncompromised';
+
+  var target = '/passports/' + product.slug + '/';
+  var reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  setTimeout(function () {
+    location.replace(target);
+  }, reduceMotion ? 150 : 750);
+})();
+</script>
+</body>
+</html>
