@@ -320,7 +320,7 @@ window.PASSPORT_DATA = {
     "Compost": "Decomposed organic matter used as a soil conditioner and slow-release fertilizer.",
     "Potassium humate": "A humic-acid-based soil conditioner and biostimulant that improves nutrient uptake and root development.",
     "Seaweed extract": "A biostimulant derived from marine algae, used to support root growth and stress tolerance.",
-    "Amino acid": "A foliar biostimulant supplying free amino acids to support protein synthesis, nutrient uptake and recovery from stress.",
+    "Amino acid": "Soy‑derived amino acid powder; provides directly absorbable nitrogen, boosting protein synthesis and stress tolerance.",
     "PDR": "A plant-nutrition formulation commonly tank-mixed with amino-acid sprays on this farm; the exact composition is set by its manufacturer and not detailed in the farm record.",
     "Jeevamrit": "A traditional fermented liquid biofertilizer (cow dung, cow urine, jaggery, pulse flour and soil) used in natural farming to build up soil microbial activity and nutrient availability."
   },

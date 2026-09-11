@@ -15,7 +15,7 @@ window.PASSPORT_DATA = {
     "lat": 24.601660016,
     "lon": 73.960907373
   },
-  "plots": "B1",
+  "plots": "A2, B1",
   "firstDate": "08 Apr 2026",
   "lastDate": "08 Jun 2026",
   "team": [
@@ -48,6 +48,27 @@ window.PASSPORT_DATA = {
     },
     {
       "id": "event-02",
+      "date": "06 May 2026",
+      "category": "Weeding",
+      "description": "weeding",
+      "plots": [
+        "A2"
+      ],
+      "execs": [
+        {
+          "name": "Tejpal Singh",
+          "hindi": "तेजपाल सिंह"
+        }
+      ],
+      "photo": "https://uc-core-dev.s3.ap-south-1.amazonaws.com/activity-attachments/dfa39d42-692d-4c23-8e59-fcfd0f741758.jpg?",
+      "photoType": "IMAGE",
+      "photoLat": 24.6022917,
+      "photoLon": 73.960805,
+      "photoCapturedAt": "2026-05-11 04:43:35.279+00",
+      "mediaCount": 2
+    },
+    {
+      "id": "event-03",
       "date": "15 May 2026",
       "category": "Spraying / Drenching",
       "description": "Do fertigation with 5 L Gokripamritam and NPK Consortia 3 L per acre (Total 15 L Gokrimritam and 6 L NPK)",
@@ -68,7 +89,7 @@ window.PASSPORT_DATA = {
       "mediaCount": 2
     },
     {
-      "id": "event-03",
+      "id": "event-04",
       "date": "19 May 2026",
       "category": "Spraying / Drenching",
       "description": "Microalgal and Amonoacid spray",
@@ -89,7 +110,7 @@ window.PASSPORT_DATA = {
       "mediaCount": 2
     },
     {
-      "id": "event-04",
+      "id": "event-05",
       "date": "08 Jun 2026",
       "category": "Harvesting",
       "description": "Do harvesting of moong pods.",
@@ -149,9 +170,9 @@ window.PASSPORT_DATA = {
     ]
   },
   "inputInfo": {
-    "NPK": "A nitrogen-phosphorus-potassium fertilizer or nutrient consortia, the standard macronutrient feed for crop growth.",
-    "Gokripamritam": "A cow-based natural-farming liquid formulation, similar in purpose to jeevamrit, applied through fertigation to support soil biology.",
-    "Microalgal extract": "A biostimulant derived from microalgae, supplying micronutrients and growth-promoting compounds."
+    "NPK": "Microbial mix (Azotobacter, Bacillus, Pseudomonas) that fixes nitrogen, solubilizes phosphorus, and mobilizes potassium for plant uptake.",
+    "Gokripamritam": "Cow urine–buttermilk bio‑formulation rich in microbes; enhances soil microflora and nutrient mineralization.",
+    "Microalgal extract": "Microalgae‑based extract containing phytohormones and micronutrients; promotes root growth, photosynthesis, and resilience."
   },
   "inputPhotos": {
     "NPK": {

@@ -441,9 +441,9 @@ window.PASSPORT_DATA = {
     "AMC": "A liquid culture/consortia input applied with irrigation on this farm; the acronym isn't expanded in the farm record.",
     "Potassium humate": "A humic-acid-based soil conditioner and biostimulant that improves nutrient uptake and root development.",
     "Seaweed extract": "A biostimulant derived from marine algae, used to support root growth and stress tolerance.",
-    "Amino acid": "A foliar biostimulant supplying free amino acids to support protein synthesis, nutrient uptake and recovery from stress.",
+    "Amino acid": "Soy‑derived amino acid powder; provides directly absorbable nitrogen, boosting protein synthesis and stress tolerance.",
     "Cow urine": "A traditional natural-farming input (gomutra), used diluted as a mild pest deterrent and growth promoter.",
-    "NPK": "A nitrogen-phosphorus-potassium fertilizer or nutrient consortia, the standard macronutrient feed for crop growth.",
+    "NPK": "Microbial mix (Azotobacter, Bacillus, Pseudomonas) that fixes nitrogen, solubilizes phosphorus, and mobilizes potassium for plant uptake.",
     "Buttermilk": "A traditional fermented dairy by-product (chaas) sometimes used diluted as a natural fungicidal/pest-deterrent spray.",
     "Neem booster": "A neem-based biopesticide and growth-booster formulation."
   },

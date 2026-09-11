@@ -1170,9 +1170,9 @@ window.PASSPORT_DATA = {
     "EPN": "Entomopathogenic nematodes — beneficial microscopic worms used as a biological control against soil-dwelling insect larvae.",
     "Beauveria bassiana": "A naturally occurring entomopathogenic fungus used as a biological insecticide against a range of crop pests.",
     "Jeevamrit": "A traditional fermented liquid biofertilizer (cow dung, cow urine, jaggery, pulse flour and soil) used in natural farming to build up soil microbial activity and nutrient availability.",
-    "Amino acid": "A foliar biostimulant supplying free amino acids to support protein synthesis, nutrient uptake and recovery from stress.",
+    "Amino acid": "Soy‑derived amino acid powder; provides directly absorbable nitrogen, boosting protein synthesis and stress tolerance.",
     "PDR": "A plant-nutrition formulation commonly tank-mixed with amino-acid sprays on this farm; the exact composition is set by its manufacturer and not detailed in the farm record.",
-    "NPK": "A nitrogen-phosphorus-potassium fertilizer or nutrient consortia, the standard macronutrient feed for crop growth.",
+    "NPK": "Microbial mix (Azotobacter, Bacillus, Pseudomonas) that fixes nitrogen, solubilizes phosphorus, and mobilizes potassium for plant uptake.",
     "Pseudomonas": "Beneficial Pseudomonas bacteria used as a biocontrol agent and plant-growth-promoting rhizobacteria (PGPR) against soil-borne pathogens.",
     "Trichoderma": "A beneficial fungus used as a biofungicide and soil-health promoter, competing against soil-borne disease organisms.",
     "Ferrous sulphate": "An iron micronutrient fertilizer, applied to correct iron deficiency (chlorosis) in the crop.",
@@ -1185,7 +1185,7 @@ window.PASSPORT_DATA = {
     "Eugenol": "A clove-oil-derived compound used as a natural insect repellent / biopesticide component.",
     "Potassium humate": "A humic-acid-based soil conditioner and biostimulant that improves nutrient uptake and root development.",
     "Sunfert": "A branded water-soluble nutrient formulation used as a foliar/fertigation feed; the manufacturer's exact composition isn't detailed in the farm record.",
-    "Microalgal extract": "A biostimulant derived from microalgae, supplying micronutrients and growth-promoting compounds.",
+    "Microalgal extract": "Microalgae‑based extract containing phytohormones and micronutrients; promotes root growth, photosynthesis, and resilience.",
     "Streptomyces": "Beneficial soil actinobacteria used as a biocontrol agent against plant pathogens."
   },
   "inputPhotos": {

@@ -609,14 +609,14 @@ window.PASSPORT_DATA = {
   "inputInfo": {
     "Compost": "Decomposed organic matter used as a soil conditioner and slow-release fertilizer.",
     "Jeevamrit": "A traditional fermented liquid biofertilizer (cow dung, cow urine, jaggery, pulse flour and soil) used in natural farming to build up soil microbial activity and nutrient availability.",
-    "NPK": "A nitrogen-phosphorus-potassium fertilizer or nutrient consortia, the standard macronutrient feed for crop growth.",
+    "NPK": "Microbial mix (Azotobacter, Bacillus, Pseudomonas) that fixes nitrogen, solubilizes phosphorus, and mobilizes potassium for plant uptake.",
     "Zyme": "An enzyme-based biostimulant product used to aid nutrient breakdown and uptake.",
     "Mycofizz granules": "A mycorrhiza-based granular biofertilizer product.",
-    "Amino acid": "A foliar biostimulant supplying free amino acids to support protein synthesis, nutrient uptake and recovery from stress.",
+    "Amino acid": "Soy‑derived amino acid powder; provides directly absorbable nitrogen, boosting protein synthesis and stress tolerance.",
     "PDR": "A plant-nutrition formulation commonly tank-mixed with amino-acid sprays on this farm; the exact composition is set by its manufacturer and not detailed in the farm record.",
     "Sunfert": "A branded water-soluble nutrient formulation used as a foliar/fertigation feed; the manufacturer's exact composition isn't detailed in the farm record.",
     "Cow urine": "A traditional natural-farming input (gomutra), used diluted as a mild pest deterrent and growth promoter.",
-    "Microalgal extract": "A biostimulant derived from microalgae, supplying micronutrients and growth-promoting compounds.",
+    "Microalgal extract": "Microalgae‑based extract containing phytohormones and micronutrients; promotes root growth, photosynthesis, and resilience.",
     "Buttermilk": "A traditional fermented dairy by-product (chaas) sometimes used diluted as a natural fungicidal/pest-deterrent spray."
   },
   "inputPhotos": {

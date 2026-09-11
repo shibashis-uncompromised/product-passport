@@ -261,7 +261,7 @@ window.PASSPORT_DATA = {
   },
   "inputInfo": {
     "Jeevamrit": "A traditional fermented liquid biofertilizer (cow dung, cow urine, jaggery, pulse flour and soil) used in natural farming to build up soil microbial activity and nutrient availability.",
-    "Amino acid": "A foliar biostimulant supplying free amino acids to support protein synthesis, nutrient uptake and recovery from stress."
+    "Amino acid": "Soy‑derived amino acid powder; provides directly absorbable nitrogen, boosting protein synthesis and stress tolerance."
   },
   "inputPhotos": {
     "Jeevamrit": {
