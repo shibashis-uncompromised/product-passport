@@ -17,7 +17,7 @@ window.PASSPORT_DATA = {
   },
   "plots": "A2, B1",
   "firstDate": "08 Apr 2026",
-  "lastDate": "08 Jun 2026",
+  "lastDate": "12 Jul 2026",
   "team": [
     {
       "name": "Tejpal Singh",
@@ -111,6 +111,21 @@ window.PASSPORT_DATA = {
     },
     {
       "id": "event-05",
+      "date": "24 May 2026",
+      "category": "Spraying / Drenching",
+      "description": "Bacillus subtilis and Buttermilk Spray were sprayed on the crop.",
+      "plots": [
+        "B1"
+      ],
+      "execs": [
+        {
+          "name": "Tejpal Singh",
+          "hindi": "तेजपाल सिंह"
+        }
+      ]
+    },
+    {
+      "id": "event-06",
       "date": "08 Jun 2026",
       "category": "Harvesting",
       "description": "Do harvesting of moong pods.",
@@ -129,6 +144,25 @@ window.PASSPORT_DATA = {
       "photoLon": 73.9547667,
       "photoCapturedAt": "2026-06-08 06:15:02.815+00",
       "mediaCount": 2
+    },
+    {
+      "id": "event-07",
+      "date": "12 Jul 2026",
+      "category": "Threshing",
+      "description": "Threshing of moong dal crop.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Tejpal Singh",
+          "hindi": "तेजपाल सिंह"
+        }
+      ],
+      "photo": "threshing-2026-07-12.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": "2026-07-12 05:38:00.000+00",
+      "mediaCount": 1
     }
   ],
   "inputDetails": {
@@ -167,12 +201,38 @@ window.PASSPORT_DATA = {
           }
         ]
       }
+    ],
+    "Bacillus subtilis (Foliar Spray)": [
+      {
+        "date": "24 May 2026",
+        "description": "Bacillus subtilis and Buttermilk Spray were sprayed on the crop.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      }
+    ],
+    "Buttermilk Spray": [
+      {
+        "date": "24 May 2026",
+        "description": "Bacillus subtilis and Buttermilk Spray were sprayed on the crop.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      }
     ]
   },
   "inputInfo": {
     "NPK": "Microbial mix (Azotobacter, Bacillus, Pseudomonas) that fixes nitrogen, solubilizes phosphorus, and mobilizes potassium for plant uptake.",
     "Gokripamritam": "Cow urine–buttermilk bio‑formulation rich in microbes; enhances soil microflora and nutrient mineralization.",
-    "Microalgal extract": "Microalgae‑based extract containing phytohormones and micronutrients; promotes root growth, photosynthesis, and resilience."
+    "Microalgal extract": "Microalgae‑based extract containing phytohormones and micronutrients; promotes root growth, photosynthesis, and resilience.",
+    "Bacillus subtilis (Foliar Spray)": "Beneficial bacterium applied as foliar spray; suppresses fungal pathogens, induces systemic resistance, and enhances plant immunity.",
+    "Buttermilk Spray": "Natural probiotic spray; supplies lactic acid bacteria that improve leaf surface microbiota, reduce pathogen load, and support plant vigor."
   },
   "inputPhotos": {
     "NPK": {
