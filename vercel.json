@@ -1,6 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "trailingSlash": true,
+  "redirects": [
+    { "source": "/p", "destination": "https://uncompromised.in", "permanent": false },
+    { "source": "/p/:path*", "destination": "https://uncompromised.in", "permanent": false }
+  ],
   "headers": [
     {
       "source": "/(.*)",
