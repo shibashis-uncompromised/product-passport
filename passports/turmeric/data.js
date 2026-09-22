@@ -15,8 +15,8 @@ window.PASSPORT_DATA = {
     "lat": 24.558790168,
     "lon": 73.626753452
   },
-  "plots": "13, B1, 9, 12",
-  "firstDate": "24 Sep 2025",
+  "plots": "NA2, NB2, NB3",
+  "firstDate": "24 May 2025",
   "lastDate": "02 Apr 2026",
   "team": [
     {
@@ -33,9 +33,503 @@ window.PASSPORT_DATA = {
   "events": [
     {
       "id": "event-01",
+      "date": "24 May 2025",
+      "category": "Maintenance",
+      "description": "Drip installation in turmeric field.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/64d3784e-4041-42a2-8587-6814ae121b47/1748085751365-mrousavy652213815517838166.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 4
+    },
+    {
+      "id": "event-02",
+      "date": "24 May 2025",
+      "category": "Field Preparation",
+      "description": "Turmeric seed treatment and sowing.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/00a281d4-43b7-487a-af11-6176a86dd232/1748169522749-mrousavy9081924701131659106.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 4
+    },
+    {
+      "id": "event-03",
+      "date": "27 May 2025",
+      "category": "Field Preparation",
+      "description": "Name plates installed on turmeric plot.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/02a1f278-29f6-4abc-bc69-e6cf892d37b2/1748494305948-mrousavy7124401377391060104.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-04",
+      "date": "28 May 2025",
+      "category": "Irrigation",
+      "description": "Irrigation in turmeric plot, harvesting, and Jeevamrit provided through drip.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/07373289-c0b1-445f-b80b-a0d58decb3b4/1748424352096-mrousavy2943762981318445016.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-05",
+      "date": "13 Jun 2025",
+      "category": "Weeding",
+      "description": "Weeding in turmeric.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/0a1812cd-bd28-4085-b021-c18d69759e75/1749808854063-mrousavy2921882501727792449.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-06",
+      "date": "14 Jun 2025",
+      "category": "Weeding",
+      "description": "Weeding in turmeric.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/1cafb4d7-d700-4f37-afa8-aa19a6752182/1749981883830-mrousavy6059892128956015344.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-07",
+      "date": "26 Jun 2025",
+      "category": "Weeding",
+      "description": "Weeding and hoeing in turmeric field.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/b479ffd4-423f-4584-8d87-4eea217e45e8/1751006022310-mrousavy5145636846913079015.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-08",
+      "date": "01 Jul 2025",
+      "category": "Spraying / Drenching",
+      "description": "Apply 10 grams of Zyme basal application near the turmeric field.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/73ef27e0-3c93-4c13-ab4a-7287dc3a4922/1751535706935-mrousavy4508938975826781808.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-09",
+      "date": "07 Jul 2025",
+      "category": "Other",
+      "description": "Install yellow and blue sticky traps in turmeric fields.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/4378ffbe-d44d-4ced-b6f6-c34d6ab24edb/1751886273271-mrousavy5771390258974949215.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-10",
+      "date": "07 Jul 2025",
+      "category": "Spraying / Drenching",
+      "description": "Mix 1 kg of amino acid in 100 liters of water and spray on turmeric.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/c52b764e-bb1d-481e-8a98-60c76bad54a7/1751952421973-mrousavy9183660262120491795.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 3
+    },
+    {
+      "id": "event-11",
+      "date": "15 Jul 2025",
+      "category": "Spraying / Drenching",
+      "description": "Mix 1 kg of potassium humate in 400 liters of water and apply to turmeric.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/879552c2-2c17-4384-b7d9-33ff834a0d92/1752729258234-mrousavy205815975762582824.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-12",
+      "date": "18 Jul 2025",
+      "category": "Sowing",
+      "description": "Transplanting of turmeric.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/518375c1-308b-4e12-a454-cf31819a5ecb/1752900006996-mrousavy1509605319247012598.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-13",
+      "date": "22 Jul 2025",
+      "category": "Spraying / Drenching",
+      "description": "In plot A1 turmeric field, mix 350 grams of amino acid mixture in 75 liters of water and spray. In plot B1 turmeric field, mix 1 kg of Trichoderma mixture in 100 liters of water and drench.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/09e0750c-aaea-44fd-bef6-6c4c01f8ffee/1753176704042-mrousavy5631832008807810691.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-14",
+      "date": "25 Jul 2025",
+      "category": "Weeding",
+      "description": "Weeding in turmeric plots A1, A3, B2.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/36f0eacc-2467-47f1-9738-54bee67e2c79/1753519332643-mrousavy6499443829944657065.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-15",
+      "date": "28 Jul 2025",
+      "category": "Sowing",
+      "description": "Sowing of Urad along the pathways of turmeric fields.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/82cf6788-f872-4743-bab9-ce326940773f/1753937223604-mrousavy7061386002103510229.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-16",
+      "date": "28 Jul 2025",
+      "category": "Weeding",
+      "description": "Weeding in turmeric plots.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/fa9e25c7-3630-4923-9b79-5d146b4f954c/1753766929497-mrousavy6676098712732249639.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-17",
+      "date": "02 Aug 2025",
+      "category": "Spraying / Drenching",
+      "description": "In plot A1 turmeric, 100 grams of seaweed extract mixture in 100 liters of water was given through drip.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": null,
+      "photoType": null,
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 0
+    },
+    {
+      "id": "event-18",
+      "date": "06 Aug 2025",
+      "category": "Spraying / Drenching",
+      "description": "Mix 1 kg of humic acid in 200 liters of water and apply to newly transplanted soybean, arvi (taro), and turmeric plants.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/5b5a0ade-0ba7-4288-989b-0f7e6c1ee0f2/1754543160160-mrousavy2111097053218880902.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-19",
+      "date": "27 Aug 2025",
+      "category": "Spraying / Drenching",
+      "description": "Mix 3kg of turmeric special in 450 liters of water and spray to all haldi plants",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": null,
+      "photoType": null,
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 0
+    },
+    {
+      "id": "event-20",
+      "date": "29 Aug 2025",
+      "category": "Spraying / Drenching",
+      "description": "Mix 3 liters of Microalgal in 300 liters of water and spray to haldi plants",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Nathu Lal",
+          "hindi": "नथू लाल"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/d13b4f16-990c-4fb5-9cc9-0cfdc01c1b3e/1756545499104-mrousavy6759930476466468203.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-21",
+      "date": "30 Aug 2025",
+      "category": "Sowing",
+      "description": "Mustard intercropping sowing in Turmeric",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Nathu Lal",
+          "hindi": "नथू लाल"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/33544975-a6c9-42c3-8021-737f61a8b69e/1756714665425-mrousavy1754224448363344433.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-22",
+      "date": "03 Sep 2025",
+      "category": "Spraying / Drenching",
+      "description": "Mix 2kg of amino acid in 200 liters of water and spray to all turmeric plants",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Nathu Lal",
+          "hindi": "नथू लाल"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/ab2f6669-e3b2-472b-83a1-fc98730c59fb/1756974081821-mrousavy9006708469871972782.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-23",
+      "date": "08 Sep 2025",
+      "category": "Spraying / Drenching",
+      "description": "Mix 5kg of Micronutrient mixture in 500 liters of water and spray to all haldi plants",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Nathu Lal",
+          "hindi": "नथू लाल"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/3d44a174-8814-4ac6-87ec-1ccd5b09c0c6/1757829837499-mrousavy309998598679127953.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-24",
+      "date": "09 Sep 2025",
+      "category": "Maintenance",
+      "description": "Filling turmeric beds with soil.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Nathu Lal",
+          "hindi": "नथू लाल"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/9ebd7fe0-c5ea-4503-87f7-b781073a0e04/1760415813350-mrousavy6367362472303057124.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-25",
+      "date": "10 Sep 2025",
+      "category": "Weeding",
+      "description": "Weeding in turmeric plots, including the mulch sheet area",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Nathu Lal",
+          "hindi": "नथू लाल"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/6b252d73-b8a6-46d1-9c37-b1f93a9c2f47/1757658993467-mrousavy1176231589825923436.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-26",
+      "date": "12 Sep 2025",
+      "category": "Other",
+      "description": "Organic compost preparation and application at the base of every haldi plant",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Nathu Lal",
+          "hindi": "नथू लाल"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/e7c9085e-10e6-4a6d-9070-6818c5d985e3/1759037089128-mrousavy2457434924227862132.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-27",
       "date": "24 Sep 2025",
       "category": "Spraying / Drenching",
-      "description": "Mix 1.5 kg of seaweed extract in 300 liters of water and give through drip to all haldi plots",
+      "description": "Mix 1.5 kg of seaweed extract in 300 liters of water and give through drip to all haldi plants",
       "plots": [],
       "execs": [
         {
@@ -47,14 +541,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-09-24 05:27:28.334+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-02",
+      "id": "event-28",
       "date": "26 Sep 2025",
       "category": "Spraying / Drenching",
-      "description": "Mix 2kg of EPN and 1 liter of Beauveria in 200 liters of water and spray in mustard plants in Turmeric",
+      "description": "Mix 2kg of EPN and 1 liter of Beauveria in 200 liters of water and spray in Turmeric plants",
       "plots": [],
       "execs": [
         {
@@ -66,14 +560,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-09-26 08:46:36.47+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-03",
+      "id": "event-29",
       "date": "28 Sep 2025",
       "category": "Irrigation",
-      "description": "हल्दी की सिंचाई में जीवामृत का प्रयोग",
+      "description": "Use of Jeevamrit in turmeric irrigation.",
       "plots": [],
       "execs": [
         {
@@ -85,17 +579,15 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-09-28 09:47:34.559+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-04",
+      "id": "event-30",
       "date": "07 Oct 2025",
       "category": "Weeding",
-      "description": "Weeding in Haldi plot 13",
-      "plots": [
-        "13"
-      ],
+      "description": "Weeding in Haldi",
+      "plots": [],
       "execs": [
         {
           "name": "Vela Ram",
@@ -106,14 +598,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-10-07 10:14:11.503+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-05",
-      "date": "12 Oct 2025",
+      "id": "event-31",
+      "date": "10 Oct 2025",
       "category": "Maintenance",
-      "description": "बुजरा में\nहल्दी में रामफल की शाखाएं काटे",
+      "description": "Earthing up and organic manure application in Plot A3 turmeric",
       "plots": [],
       "execs": [
         {
@@ -121,18 +613,18 @@ window.PASSPORT_DATA = {
           "hindi": "वेला राम"
         }
       ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/c6451378-c49d-4b9c-b1a1-0937287a7270/1760249587411-mrousavy8008652026905343956.jpg",
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/c234bdb6-c4fb-479b-92b0-29d61183e054/1760243134343-mrousavy4201856031906869256.jpg",
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-10-12 06:13:07.832+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-06",
-      "date": "12 Oct 2025",
+      "id": "event-32",
+      "date": "11 Oct 2025",
       "category": "Maintenance",
-      "description": "हल्दी के सभी प्लॉट में खाद डालकर मिट्टी चढ़ाना",
+      "description": "Earthing up and organic manure application in Plot B2 turmeric",
       "plots": [],
       "execs": [
         {
@@ -140,15 +632,34 @@ window.PASSPORT_DATA = {
           "hindi": "वेला राम"
         }
       ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/05b2e604-46b1-4237-a93a-832498d689f3/1760243276115-mrousavy6581935572982650328.jpg",
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/a183c4c5-7f6a-4c75-9e18-8bc9d705435c/1760243053216-mrousavy5674051470682477796.jpg",
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-10-12 04:27:56.232+00",
+      "photoCapturedAt": null,
+      "mediaCount": 2
+    },
+    {
+      "id": "event-33",
+      "date": "12 Oct 2025",
+      "category": "Maintenance",
+      "description": "Earthing up and organic manure application in Plot B3 turmeric",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/b39e17dd-2e05-48e3-8c42-df6196ea30ac/1760243223952-mrousavy62115016988575592.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-07",
+      "id": "event-34",
       "date": "16 Oct 2025",
       "category": "Spraying / Drenching",
       "description": "Mix 3 kg of amino acid and 300g of PDR in 500 liters of water and spray to all haldi plants",
@@ -163,14 +674,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-10-16 10:47:13.935+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-08",
+      "id": "event-35",
       "date": "17 Oct 2025",
       "category": "Irrigation",
-      "description": "हल्दी में पानी  और जीवामृत देना",
+      "description": "Giving water and Jeevamrit to turmeric.",
       "plots": [],
       "execs": [
         {
@@ -182,32 +693,11 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-10-17 09:32:07.385+00",
-      "mediaCount": 1
+      "photoCapturedAt": null,
+      "mediaCount": 2
     },
     {
-      "id": "event-09",
-      "date": "17 Oct 2025",
-      "category": "Maintenance",
-      "description": "Earthing up and organic manure application in Plot B1  turmeric",
-      "plots": [
-        "B1"
-      ],
-      "execs": [
-        {
-          "name": "Vela Ram",
-          "hindi": "वेला राम"
-        }
-      ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/bcb12b54-603b-4429-8b42-cedc6ba06b09/1760691192988-mrousavy3726915885644216162.jpg",
-      "photoType": "IMAGE",
-      "photoLat": null,
-      "photoLon": null,
-      "photoCapturedAt": "2025-10-17 08:53:13.197+00",
-      "mediaCount": 1
-    },
-    {
-      "id": "event-10",
+      "id": "event-36",
       "date": "25 Oct 2025",
       "category": "Spraying / Drenching",
       "description": "Mix 10 liters of NPK in 300 liters of water and provide through drip to all haldi plants",
@@ -222,14 +712,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-10-25 10:45:29.1+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-11",
+      "id": "event-37",
       "date": "26 Oct 2025",
       "category": "Spraying / Drenching",
-      "description": "Mix 5 liter Pseudomonas and 1 kg amino acid in 300 liters of water and spray to all Turmeric plants",
+      "description": "Mix 5 liters of Pseudomonas and 1 kg of amino acid in 300 liters of water and spray to all Turmeric plants",
       "plots": [],
       "execs": [
         {
@@ -241,14 +731,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-10-26 09:11:41.167+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-12",
+      "id": "event-38",
       "date": "03 Nov 2025",
       "category": "Maintenance",
-      "description": "•Earthing Up in Turmeric",
+      "description": "Earthing up in Turmeric.",
       "plots": [],
       "execs": [
         {
@@ -260,30 +750,11 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-03 11:09:16.947+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-13",
-      "date": "04 Nov 2025",
-      "category": "Maintenance",
-      "description": "collect all sticky traps residue from farm.",
-      "plots": [],
-      "execs": [
-        {
-          "name": "Vela Ram",
-          "hindi": "वेला राम"
-        }
-      ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/f1f6433a-3022-47b3-b533-4a2a5385227e/1762244919760-mrousavy8085069871568740500.jpg",
-      "photoType": "IMAGE",
-      "photoLat": null,
-      "photoLon": null,
-      "photoCapturedAt": "2025-11-04 08:28:40.202+00",
-      "mediaCount": 1
-    },
-    {
-      "id": "event-14",
+      "id": "event-39",
       "date": "04 Nov 2025",
       "category": "Weeding",
       "description": "Hand weeding in turmeric.",
@@ -298,14 +769,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-04 08:14:33.063+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-15",
+      "id": "event-40",
       "date": "04 Nov 2025",
       "category": "Other",
-      "description": "Earthing up by earthing up machine.",
+      "description": "Earthing up done using an earthing-up machine.",
       "plots": [],
       "execs": [
         {
@@ -317,14 +788,33 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-04 08:21:27.911+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-16",
+      "id": "event-41",
+      "date": "04 Nov 2025",
+      "category": "Maintenance",
+      "description": "Collected all sticky trap residue from the farm.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/f1f6433a-3022-47b3-b533-4a2a5385227e/1762244919760-mrousavy8085069871568740500.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-42",
       "date": "07 Nov 2025",
       "category": "Spraying / Drenching",
-      "description": "Mix 10 liters NPK and trichoderma  3 liters in 400 liters of water and provide through drip",
+      "description": "Mix 10 liters of NPK and 3 liters of trichoderma in 400 liters of water and provide through drip",
       "plots": [],
       "execs": [
         {
@@ -336,11 +826,11 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-07 09:03:44.715+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-17",
+      "id": "event-43",
       "date": "08 Nov 2025",
       "category": "Spraying / Drenching",
       "description": "Mix 4 kg of Ferrous sulphate in 400 liters of water and spray to all Haldi plants",
@@ -355,15 +845,17 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-08 06:31:11.704+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-18",
+      "id": "event-44",
       "date": "12 Nov 2025",
       "category": "Other",
-      "description": "B2 plot removal of dead leaves turmeric",
-      "plots": [],
+      "description": "Removal of dead leaves from turmeric",
+      "plots": [
+        "NB2"
+      ],
       "execs": [
         {
           "name": "Vela Ram",
@@ -374,14 +866,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-12 08:37:24.646+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-19",
+      "id": "event-45",
       "date": "14 Nov 2025",
       "category": "Spraying / Drenching",
-      "description": "Mix 2kg of ferrous sulphate in 400 liters of water and apply through drip in all turmeric plot",
+      "description": "Mix 2kg of ferrous sulphate in 400 liters of water and apply through drip in all turmeric",
       "plots": [],
       "execs": [
         {
@@ -393,14 +885,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-14 10:16:41.345+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-20",
+      "id": "event-46",
       "date": "19 Nov 2025",
       "category": "Spraying / Drenching",
-      "description": "mix Bourdaux mixture 1kg in 200 liters of water and spray to turmeric plants",
+      "description": "Mix 1kg of Bordeaux mixture in 200 liters of water and spray to turmeric plants.",
       "plots": [],
       "execs": [
         {
@@ -412,14 +904,33 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-19 09:08:09.477+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-21",
+      "id": "event-47",
+      "date": "22 Nov 2025",
+      "category": "Spraying / Drenching",
+      "description": "Spray Bacillus subtilis in all turmeric plots.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": null,
+      "photoType": null,
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 0
+    },
+    {
+      "id": "event-48",
       "date": "24 Nov 2025",
       "category": "Spraying / Drenching",
-      "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM, Zyme application to all turmeric plants",
+      "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM and Zyme applied to all turmeric plants",
       "plots": [],
       "execs": [
         {
@@ -431,11 +942,11 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-24 10:47:19.75+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-22",
+      "id": "event-49",
       "date": "30 Nov 2025",
       "category": "Spraying / Drenching",
       "description": "Mix Eugenol 500g in 150 L of water and spray to Haldi plants",
@@ -450,14 +961,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-30 06:19:50.553+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-23",
+      "id": "event-50",
       "date": "02 Dec 2025",
       "category": "Spraying / Drenching",
-      "description": "Mix 3kg of ferrous sulphate in 500 liters and provide through drip in all turmeric plots",
+      "description": "Mix 3kg of ferrous sulphate in 500 liters of water and provide through drip in all turmeric",
       "plots": [],
       "execs": [
         {
@@ -469,14 +980,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-02 10:20:18.306+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-24",
+      "id": "event-51",
       "date": "13 Dec 2025",
       "category": "Spraying / Drenching",
-      "description": "Mix 1.5kg Bourdeux mixture in 300 liters of water and spray to turmeric plants",
+      "description": "Mix 1.5kg of Bordeaux mixture in 300 liters of water and spray to turmeric plants",
       "plots": [],
       "execs": [
         {
@@ -488,33 +999,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-13 07:10:35.936+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-25",
-      "date": "14 Dec 2025",
-      "category": "Spraying / Drenching",
-      "description": "1kg potassium humate and 400g seaweed extract in 400 liters of water and provide through drip",
-      "plots": [],
-      "execs": [
-        {
-          "name": "Nathu Lal",
-          "hindi": "नथू लाल"
-        }
-      ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/6eab4bee-a8a6-4086-95aa-e0ee97fa0d71/1765690061355-mrousavy4843466485169279092.jpg",
-      "photoType": "IMAGE",
-      "photoLat": null,
-      "photoLon": null,
-      "photoCapturedAt": "2025-12-14 05:27:41.511+00",
-      "mediaCount": 1
-    },
-    {
-      "id": "event-26",
+      "id": "event-52",
       "date": "14 Dec 2025",
       "category": "Other",
-      "description": "Cut older and brown leaves in haldi plots",
+      "description": "Cut older and brown leaves in haldi",
       "plots": [],
       "execs": [
         {
@@ -526,11 +1018,30 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-14 05:13:40.113+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-27",
+      "id": "event-53",
+      "date": "14 Dec 2025",
+      "category": "Spraying / Drenching",
+      "description": "Mix 1kg potassium humate and 400g seaweed extract in 400 liters of water and provide through drip",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Nathu Lal",
+          "hindi": "नथू लाल"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/6eab4bee-a8a6-4086-95aa-e0ee97fa0d71/1765690061355-mrousavy4843466485169279092.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-54",
       "date": "15 Dec 2025",
       "category": "Spraying / Drenching",
       "description": "Mix 2kg amino acid and 400g PDR in 400 liters of water and spray to turmeric plants",
@@ -545,14 +1056,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-15 10:07:53.315+00",
-      "mediaCount": 1
+      "photoCapturedAt": null,
+      "mediaCount": 3
     },
     {
-      "id": "event-28",
+      "id": "event-55",
       "date": "18 Dec 2025",
       "category": "Spraying / Drenching",
-      "description": "Mix sunfert 3 boxes in 450 liters of water and spray to all turmeric plants",
+      "description": "Mix 3 boxes of sunfert in 450 liters of water and spray to all turmeric plants",
       "plots": [],
       "execs": [
         {
@@ -564,11 +1075,11 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-18 09:57:52.722+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-29",
+      "id": "event-56",
       "date": "20 Dec 2025",
       "category": "Spraying / Drenching",
       "description": "Mix 4 kg of ferrous sulphate in 400 liters of water and provide through drip",
@@ -583,14 +1094,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-20 09:11:34.057+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-30",
+      "id": "event-57",
       "date": "22 Dec 2025",
       "category": "Spraying / Drenching",
-      "description": "Mix 4 liter of microlagal in 400 liters of water and spray to all turmeric plants",
+      "description": "Mix 4 liters of microalgal in 400 liters of water and spray to all turmeric plants",
       "plots": [],
       "execs": [
         {
@@ -602,14 +1113,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-22 10:50:27.339+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-31",
+      "id": "event-58",
       "date": "24 Dec 2025",
       "category": "Spraying / Drenching",
-      "description": "Mix 2 kg of Bourdeux mixture in 400 liters of water and spray to turmeric crop",
+      "description": "Mix 2 kg of Bordeaux mixture in 400 liters of water and spray to turmeric crop",
       "plots": [],
       "execs": [
         {
@@ -621,14 +1132,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-24 09:03:00.442+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-32",
+      "id": "event-59",
       "date": "03 Jan 2026",
       "category": "Spraying / Drenching",
-      "description": "Mix 3 liter of Streptomyces in 300 liters of water and provide through drip",
+      "description": "Mix 3 liters of Streptomyces in 300 liters of water and provide through drip",
       "plots": [],
       "execs": [
         {
@@ -640,14 +1151,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-01-03 10:00:11.277+00",
-      "mediaCount": 1
+      "photoCapturedAt": null,
+      "mediaCount": 3
     },
     {
-      "id": "event-33",
+      "id": "event-60",
       "date": "07 Jan 2026",
       "category": "Spraying / Drenching",
-      "description": "Fertigation of 3L Trichoderma in 300 L of Water and fertigate to All Turmeric plots",
+      "description": "Fertigation of 3L Trichoderma in 300 L of water to all turmeric",
       "plots": [],
       "execs": [
         {
@@ -659,14 +1170,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-01-07 09:52:45.553+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-34",
+      "id": "event-61",
       "date": "08 Jan 2026",
       "category": "Spraying / Drenching",
-      "description": "Mix 3 liter of Microalgal in 300 liters of water and spray to all turmeric plants",
+      "description": "Mix 3 liters of Microalgal in 300 liters of water and spray to all turmeric plants",
       "plots": [],
       "execs": [
         {
@@ -678,17 +1189,17 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-01-08 09:20:15.623+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-35",
+      "id": "event-62",
       "date": "16 Feb 2026",
       "category": "Harvesting",
-      "description": "Harvest Pragati and Chinna Salem Variety from Plot 9 and 12 and store properly as per the instructions given by Vijay sir",
+      "description": "Harvest Pragati and Chinna Salem varieties, and store properly as per the instructions given by Vijay sir",
       "plots": [
-        "9",
-        "12"
+        "NA2",
+        "NB3"
       ],
       "execs": [
         {
@@ -700,14 +1211,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-02-16 06:32:44.178+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-36",
+      "id": "event-63",
       "date": "10 Mar 2026",
       "category": "Harvesting",
-      "description": "Start Turmeric  Seed Rhizome storage",
+      "description": "Start turmeric seed rhizome storage",
       "plots": [],
       "execs": [
         {
@@ -719,14 +1230,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-03-10 04:54:29.783+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-37",
+      "id": "event-64",
       "date": "19 Mar 2026",
       "category": "Maintenance",
-      "description": "Cover Turmeric with Tarpaulin properly to avoid rainwater.",
+      "description": "Cover turmeric with tarpaulin properly to avoid rainwater.",
       "plots": [],
       "execs": [
         {
@@ -738,14 +1249,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-03-19 05:40:04.315+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-38",
+      "id": "event-65",
       "date": "02 Apr 2026",
       "category": "Maintenance",
-      "description": "Prepare small shed for Turmeric storage with bamboo and shed net",
+      "description": "Prepare small shed for turmeric storage with bamboo and shed net",
       "plots": [],
       "execs": [
         {
@@ -757,61 +1268,25 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-04-02 05:20:20.051+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     }
   ],
   "inputDetails": {
-    "Seaweed extract": [
+    "Jeevamrit": [
       {
-        "date": "24 Sep 2025",
-        "description": "Mix 1.5 kg of seaweed extract in 300 liters of water and give through drip to all haldi plots",
+        "date": "28 May 2025",
+        "description": "Irrigation in turmeric plot, harvesting, and Jeevamrit provided through drip.",
         "execs": [
           {
-            "name": "Nathu Lal",
-            "hindi": "नथू लाल"
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
           }
         ]
       },
       {
-        "date": "14 Dec 2025",
-        "description": "1kg potassium humate and 400g seaweed extract in 400 liters of water and provide through drip",
-        "execs": [
-          {
-            "name": "Nathu Lal",
-            "hindi": "नथू लाल"
-          }
-        ]
-      }
-    ],
-    "EPN": [
-      {
-        "date": "26 Sep 2025",
-        "description": "Mix 2kg of EPN and 1 liter of Beauveria in 200 liters of water and spray in mustard plants in Turmeric",
-        "execs": [
-          {
-            "name": "Vela Ram",
-            "hindi": "वेला राम"
-          }
-        ]
-      }
-    ],
-    "Beauveria bassiana": [
-      {
-        "date": "26 Sep 2025",
-        "description": "Mix 2kg of EPN and 1 liter of Beauveria in 200 liters of water and spray in mustard plants in Turmeric",
-        "execs": [
-          {
-            "name": "Vela Ram",
-            "hindi": "वेला राम"
-          }
-        ]
-      }
-    ],
-    "Jeevamrit": [
-      {
         "date": "28 Sep 2025",
-        "description": "हल्दी की सिंचाई में जीवामृत का प्रयोग",
+        "description": "Use of Jeevamrit in turmeric irrigation.",
         "execs": [
           {
             "name": "Vela Ram",
@@ -821,7 +1296,29 @@ window.PASSPORT_DATA = {
       },
       {
         "date": "17 Oct 2025",
-        "description": "हल्दी में पानी  और जीवामृत देना",
+        "description": "Giving water and Jeevamrit to turmeric.",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      }
+    ],
+    "Zyme": [
+      {
+        "date": "01 Jul 2025",
+        "description": "Apply 10 grams of Zyme basal application near the turmeric field.",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
+      {
+        "date": "24 Nov 2025",
+        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM and Zyme applied to all turmeric plants",
         "execs": [
           {
             "name": "Vela Ram",
@@ -831,6 +1328,36 @@ window.PASSPORT_DATA = {
       }
     ],
     "Amino acid": [
+      {
+        "date": "07 Jul 2025",
+        "description": "Mix 1 kg of amino acid in 100 liters of water and spray on turmeric.",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
+      {
+        "date": "22 Jul 2025",
+        "description": "In plot A1 turmeric field, mix 350 grams of amino acid mixture in 75 liters of water and spray. In plot B1 turmeric field, mix 1 kg of Trichoderma mixture in 100 liters of water and drench.",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
+      {
+        "date": "03 Sep 2025",
+        "description": "Mix 2kg of amino acid in 200 liters of water and spray to all turmeric plants",
+        "execs": [
+          {
+            "name": "Nathu Lal",
+            "hindi": "नथू लाल"
+          }
+        ]
+      },
       {
         "date": "16 Oct 2025",
         "description": "Mix 3 kg of amino acid and 300g of PDR in 500 liters of water and spray to all haldi plants",
@@ -843,7 +1370,7 @@ window.PASSPORT_DATA = {
       },
       {
         "date": "26 Oct 2025",
-        "description": "Mix 5 liter Pseudomonas and 1 kg amino acid in 300 liters of water and spray to all Turmeric plants",
+        "description": "Mix 5 liters of Pseudomonas and 1 kg of amino acid in 300 liters of water and spray to all Turmeric plants",
         "execs": [
           {
             "name": "Vela Ram",
@@ -854,6 +1381,226 @@ window.PASSPORT_DATA = {
       {
         "date": "15 Dec 2025",
         "description": "Mix 2kg amino acid and 400g PDR in 400 liters of water and spray to turmeric plants",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      }
+    ],
+    "Potassium humate": [
+      {
+        "date": "15 Jul 2025",
+        "description": "Mix 1 kg of potassium humate in 400 liters of water and apply to turmeric.",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
+      {
+        "date": "14 Dec 2025",
+        "description": "Mix 1kg potassium humate and 400g seaweed extract in 400 liters of water and provide through drip",
+        "execs": [
+          {
+            "name": "Nathu Lal",
+            "hindi": "नथू लाल"
+          }
+        ]
+      }
+    ],
+    "Trichoderma": [
+      {
+        "date": "22 Jul 2025",
+        "description": "In plot A1 turmeric field, mix 350 grams of amino acid mixture in 75 liters of water and spray. In plot B1 turmeric field, mix 1 kg of Trichoderma mixture in 100 liters of water and drench.",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
+      {
+        "date": "07 Nov 2025",
+        "description": "Mix 10 liters of NPK and 3 liters of trichoderma in 400 liters of water and provide through drip",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
+      {
+        "date": "24 Nov 2025",
+        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM and Zyme applied to all turmeric plants",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
+      {
+        "date": "07 Jan 2026",
+        "description": "Fertigation of 3L Trichoderma in 300 L of water to all turmeric",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      }
+    ],
+    "Seaweed extract": [
+      {
+        "date": "02 Aug 2025",
+        "description": "In plot A1 turmeric, 100 grams of seaweed extract mixture in 100 liters of water was given through drip.",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
+      {
+        "date": "24 Sep 2025",
+        "description": "Mix 1.5 kg of seaweed extract in 300 liters of water and give through drip to all haldi plants",
+        "execs": [
+          {
+            "name": "Nathu Lal",
+            "hindi": "नथू लाल"
+          }
+        ]
+      },
+      {
+        "date": "14 Dec 2025",
+        "description": "Mix 1kg potassium humate and 400g seaweed extract in 400 liters of water and provide through drip",
+        "execs": [
+          {
+            "name": "Nathu Lal",
+            "hindi": "नथू लाल"
+          }
+        ]
+      }
+    ],
+    "Humic acid": [
+      {
+        "date": "06 Aug 2025",
+        "description": "Mix 1 kg of humic acid in 200 liters of water and apply to newly transplanted soybean, arvi (taro), and turmeric plants.",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      }
+    ],
+    "Turmeric special blend": [
+      {
+        "date": "27 Aug 2025",
+        "description": "Mix 3kg of turmeric special in 450 liters of water and spray to all haldi plants",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
+      {
+        "date": "24 Nov 2025",
+        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM and Zyme applied to all turmeric plants",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      }
+    ],
+    "Microalgal extract": [
+      {
+        "date": "29 Aug 2025",
+        "description": "Mix 3 liters of Microalgal in 300 liters of water and spray to haldi plants",
+        "execs": [
+          {
+            "name": "Nathu Lal",
+            "hindi": "नथू लाल"
+          }
+        ]
+      },
+      {
+        "date": "22 Dec 2025",
+        "description": "Mix 4 liters of microalgal in 400 liters of water and spray to all turmeric plants",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
+      {
+        "date": "08 Jan 2026",
+        "description": "Mix 3 liters of Microalgal in 300 liters of water and spray to all turmeric plants",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      }
+    ],
+    "Micronutrient mixture": [
+      {
+        "date": "08 Sep 2025",
+        "description": "Mix 5kg of Micronutrient mixture in 500 liters of water and spray to all haldi plants",
+        "execs": [
+          {
+            "name": "Nathu Lal",
+            "hindi": "नथू लाल"
+          }
+        ]
+      }
+    ],
+    "Compost": [
+      {
+        "date": "12 Sep 2025",
+        "description": "Organic compost preparation and application at the base of every haldi plant",
+        "execs": [
+          {
+            "name": "Nathu Lal",
+            "hindi": "नथू लाल"
+          }
+        ]
+      },
+      {
+        "date": "24 Nov 2025",
+        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM and Zyme applied to all turmeric plants",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      }
+    ],
+    "EPN": [
+      {
+        "date": "26 Sep 2025",
+        "description": "Mix 2kg of EPN and 1 liter of Beauveria in 200 liters of water and spray in Turmeric plants",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      }
+    ],
+    "Beauveria bassiana": [
+      {
+        "date": "26 Sep 2025",
+        "description": "Mix 2kg of EPN and 1 liter of Beauveria in 200 liters of water and spray in Turmeric plants",
         "execs": [
           {
             "name": "Vela Ram",
@@ -897,7 +1644,7 @@ window.PASSPORT_DATA = {
       },
       {
         "date": "07 Nov 2025",
-        "description": "Mix 10 liters NPK and trichoderma  3 liters in 400 liters of water and provide through drip",
+        "description": "Mix 10 liters of NPK and 3 liters of trichoderma in 400 liters of water and provide through drip",
         "execs": [
           {
             "name": "Vela Ram",
@@ -909,39 +1656,7 @@ window.PASSPORT_DATA = {
     "Pseudomonas": [
       {
         "date": "26 Oct 2025",
-        "description": "Mix 5 liter Pseudomonas and 1 kg amino acid in 300 liters of water and spray to all Turmeric plants",
-        "execs": [
-          {
-            "name": "Vela Ram",
-            "hindi": "वेला राम"
-          }
-        ]
-      }
-    ],
-    "Trichoderma": [
-      {
-        "date": "07 Nov 2025",
-        "description": "Mix 10 liters NPK and trichoderma  3 liters in 400 liters of water and provide through drip",
-        "execs": [
-          {
-            "name": "Vela Ram",
-            "hindi": "वेला राम"
-          }
-        ]
-      },
-      {
-        "date": "24 Nov 2025",
-        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM, Zyme application to all turmeric plants",
-        "execs": [
-          {
-            "name": "Vela Ram",
-            "hindi": "वेला राम"
-          }
-        ]
-      },
-      {
-        "date": "07 Jan 2026",
-        "description": "Fertigation of 3L Trichoderma in 300 L of Water and fertigate to All Turmeric plots",
+        "description": "Mix 5 liters of Pseudomonas and 1 kg of amino acid in 300 liters of water and spray to all Turmeric plants",
         "execs": [
           {
             "name": "Vela Ram",
@@ -963,7 +1678,7 @@ window.PASSPORT_DATA = {
       },
       {
         "date": "14 Nov 2025",
-        "description": "Mix 2kg of ferrous sulphate in 400 liters of water and apply through drip in all turmeric plot",
+        "description": "Mix 2kg of ferrous sulphate in 400 liters of water and apply through drip in all turmeric",
         "execs": [
           {
             "name": "Vela Ram",
@@ -973,7 +1688,7 @@ window.PASSPORT_DATA = {
       },
       {
         "date": "24 Nov 2025",
-        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM, Zyme application to all turmeric plants",
+        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM and Zyme applied to all turmeric plants",
         "execs": [
           {
             "name": "Vela Ram",
@@ -983,7 +1698,7 @@ window.PASSPORT_DATA = {
       },
       {
         "date": "02 Dec 2025",
-        "description": "Mix 3kg of ferrous sulphate in 500 liters and provide through drip in all turmeric plots",
+        "description": "Mix 3kg of ferrous sulphate in 500 liters of water and provide through drip in all turmeric",
         "execs": [
           {
             "name": "Vela Ram",
@@ -1005,7 +1720,7 @@ window.PASSPORT_DATA = {
     "Bordeaux mixture": [
       {
         "date": "19 Nov 2025",
-        "description": "mix Bourdaux mixture 1kg in 200 liters of water and spray to turmeric plants",
+        "description": "Mix 1kg of Bordeaux mixture in 200 liters of water and spray to turmeric plants.",
         "execs": [
           {
             "name": "Vela Ram",
@@ -1015,7 +1730,7 @@ window.PASSPORT_DATA = {
       },
       {
         "date": "13 Dec 2025",
-        "description": "Mix 1.5kg Bourdeux mixture in 300 liters of water and spray to turmeric plants",
+        "description": "Mix 1.5kg of Bordeaux mixture in 300 liters of water and spray to turmeric plants",
         "execs": [
           {
             "name": "Nathu Lal",
@@ -1025,7 +1740,7 @@ window.PASSPORT_DATA = {
       },
       {
         "date": "24 Dec 2025",
-        "description": "Mix 2 kg of Bourdeux mixture in 400 liters of water and spray to turmeric crop",
+        "description": "Mix 2 kg of Bordeaux mixture in 400 liters of water and spray to turmeric crop",
         "execs": [
           {
             "name": "Vela Ram",
@@ -1034,22 +1749,10 @@ window.PASSPORT_DATA = {
         ]
       }
     ],
-    "Compost": [
+    "Bacillus subtilis (Foliar Spray)": [
       {
-        "date": "24 Nov 2025",
-        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM, Zyme application to all turmeric plants",
-        "execs": [
-          {
-            "name": "Vela Ram",
-            "hindi": "वेला राम"
-          }
-        ]
-      }
-    ],
-    "Zyme": [
-      {
-        "date": "24 Nov 2025",
-        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM, Zyme application to all turmeric plants",
+        "date": "22 Nov 2025",
+        "description": "Spray Bacillus subtilis in all turmeric plots.",
         "execs": [
           {
             "name": "Vela Ram",
@@ -1061,7 +1764,7 @@ window.PASSPORT_DATA = {
     "VAM": [
       {
         "date": "24 Nov 2025",
-        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM, Zyme application to all turmeric plants",
+        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM and Zyme applied to all turmeric plants",
         "execs": [
           {
             "name": "Vela Ram",
@@ -1073,19 +1776,7 @@ window.PASSPORT_DATA = {
     "Microbooster": [
       {
         "date": "24 Nov 2025",
-        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM, Zyme application to all turmeric plants",
-        "execs": [
-          {
-            "name": "Vela Ram",
-            "hindi": "वेला राम"
-          }
-        ]
-      }
-    ],
-    "Turmeric special blend": [
-      {
-        "date": "24 Nov 2025",
-        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM, Zyme application to all turmeric plants",
+        "description": "Compost with trichoderma, turmeric special, microbooster, ferrous sulphate, VAM and Zyme applied to all turmeric plants",
         "execs": [
           {
             "name": "Vela Ram",
@@ -1106,44 +1797,10 @@ window.PASSPORT_DATA = {
         ]
       }
     ],
-    "Potassium humate": [
-      {
-        "date": "14 Dec 2025",
-        "description": "1kg potassium humate and 400g seaweed extract in 400 liters of water and provide through drip",
-        "execs": [
-          {
-            "name": "Nathu Lal",
-            "hindi": "नथू लाल"
-          }
-        ]
-      }
-    ],
     "Sunfert": [
       {
         "date": "18 Dec 2025",
-        "description": "Mix sunfert 3 boxes in 450 liters of water and spray to all turmeric plants",
-        "execs": [
-          {
-            "name": "Vela Ram",
-            "hindi": "वेला राम"
-          }
-        ]
-      }
-    ],
-    "Microalgal extract": [
-      {
-        "date": "22 Dec 2025",
-        "description": "Mix 4 liter of microlagal in 400 liters of water and spray to all turmeric plants",
-        "execs": [
-          {
-            "name": "Vela Ram",
-            "hindi": "वेला राम"
-          }
-        ]
-      },
-      {
-        "date": "08 Jan 2026",
-        "description": "Mix 3 liter of Microalgal in 300 liters of water and spray to all turmeric plants",
+        "description": "Mix 3 boxes of sunfert in 450 liters of water and spray to all turmeric plants",
         "execs": [
           {
             "name": "Vela Ram",
@@ -1155,7 +1812,7 @@ window.PASSPORT_DATA = {
     "Streptomyces": [
       {
         "date": "03 Jan 2026",
-        "description": "Mix 3 liter of Streptomyces in 300 liters of water and provide through drip",
+        "description": "Mix 3 liters of Streptomyces in 300 liters of water and provide through drip",
         "execs": [
           {
             "name": "Vela Ram",
@@ -1166,154 +1823,169 @@ window.PASSPORT_DATA = {
     ]
   },
   "inputInfo": {
-    "Seaweed extract": "A biostimulant derived from marine algae, used to support root growth and stress tolerance.",
-    "EPN": "Entomopathogenic nematodes — beneficial microscopic worms used as a biological control against soil-dwelling insect larvae.",
-    "Beauveria bassiana": "A naturally occurring entomopathogenic fungus used as a biological insecticide against a range of crop pests.",
-    "Jeevamrit": "A traditional fermented liquid biofertilizer (cow dung, cow urine, jaggery, pulse flour and soil) used in natural farming to build up soil microbial activity and nutrient availability.",
-    "Amino acid": "A foliar biostimulant supplying free amino acids to support protein synthesis, nutrient uptake and recovery from stress.",
-    "PDR": "A plant-nutrition formulation commonly tank-mixed with amino-acid sprays on this farm; the exact composition is set by its manufacturer and not detailed in the farm record.",
-    "NPK": "A nitrogen-phosphorus-potassium fertilizer or nutrient consortia, the standard macronutrient feed for crop growth.",
-    "Pseudomonas": "Beneficial Pseudomonas bacteria used as a biocontrol agent and plant-growth-promoting rhizobacteria (PGPR) against soil-borne pathogens.",
-    "Trichoderma": "A beneficial fungus used as a biofungicide and soil-health promoter, competing against soil-borne disease organisms.",
-    "Ferrous sulphate": "An iron micronutrient fertilizer, applied to correct iron deficiency (chlorosis) in the crop.",
-    "Bordeaux mixture": "A classic copper-sulphate-and-lime fungicide, used against fungal and bacterial plant diseases.",
-    "Compost": "Decomposed organic matter used as a soil conditioner and slow-release fertilizer.",
-    "Zyme": "An enzyme-based biostimulant product used to aid nutrient breakdown and uptake.",
-    "VAM": "Vesicular-arbuscular mycorrhiza — beneficial root-associating fungi that improve water and nutrient uptake.",
-    "Microbooster": "A microbial biostimulant/growth-promoter product.",
-    "Turmeric special blend": "A farm-mixed nutrient blend formulated specifically for the turmeric crop; its exact composition isn't detailed in the farm record.",
-    "Eugenol": "A clove-oil-derived compound used as a natural insect repellent / biopesticide component.",
-    "Potassium humate": "A humic-acid-based soil conditioner and biostimulant that improves nutrient uptake and root development.",
-    "Sunfert": "A branded water-soluble nutrient formulation used as a foliar/fertigation feed; the manufacturer's exact composition isn't detailed in the farm record.",
-    "Microalgal extract": "A biostimulant derived from microalgae, supplying micronutrients and growth-promoting compounds.",
-    "Streptomyces": "Beneficial soil actinobacteria used as a biocontrol agent against plant pathogens."
+    "Jeevamrit": "A liquid organic fertilizer based on cow dung and cow urine that contains beneficial microbes. It improves soil microflora and enhances plant nutrition.",
+    "Zyme": "A soil conditioner and bio-stimulant rich in humic acid, fulvic acid, and seaweed extract. It improves soil fertility, promotes early root establishment, and enhances overall plant vigor.",
+    "Amino acid": "A water-soluble powder formulation rich in amino acids that also serves as a source of nitrogen. It is used to support plant protein synthesis and stress tolerance.",
+    "Potassium humate": "A powdered plant nutrient containing humic acid and potassium. It serves as a soil amendment to enhance plant nutrition and vigor.",
+    "Trichoderma": "A highly effective beneficial fungus used as a bio-control agent to fight against harmful soil-borne pathogenic microbes.",
+    "Seaweed extract": "A marine algae extract rich in alginic acid and trace micronutrients. It aids in stress management, improves overall plant growth, and promotes better flowering and fruiting.",
+    "Humic acid": "An organic powder soil amendment that promotes healthy root development and improves early plant establishment.",
+    "Turmeric special blend": "A customized mixture of micronutrients formulated in a specific ratio optimized for turmeric crops.",
+    "Microalgal extract": "An extract derived from microalgae that contains trace micronutrients. It aids in stress management, improves plant growth, and enhances flowering and fruiting.",
+    "Micronutrient mixture": "A comprehensive blend used to manage nutrient deficiencies (Zn, Mg, Mn, B, Fe, Mo) and improve overall crop health.",
+    "Compost": "Farmyard manure decomposed using microbial cultures. It acts as a source of NPK and trace nutrients, provides beneficial microbial biomass, and improves soil texture and condition.",
+    "EPN": "A bio-pesticide powder containing beneficial nematodes (Steinernema or Heterorhabditis species). These microscopic parasitic roundworms exclusively infect and kill targeted insect pests.",
+    "Beauveria bassiana": "An entomopathogenic fungus that infects and kills insect pests, primarily targeting them in their larval stages.",
+    "PDR": "A natural source of potassium derived from red algae (Rhodophytes) that also possesses inherent plant growth-promoting properties.",
+    "NPK": "A beneficial microbial consortium that biologically fixes atmospheric nitrogen, solubilizes phosphorus, and mobilizes potassium to make these essential nutrients readily available to plants.",
+    "Pseudomonas": "Beneficial plant growth-promoting bacteria that suppress harmful bacteria while improving plant immunity and vigor.",
+    "Ferrous sulphate": "An agricultural supplement providing iron and sulfur to plants.",
+    "Bordeaux mixture": "A copper-based fungicide composed of copper sulphate and lime, approved for use in organic farming under NPOP standards.",
+    "Bacillus subtilis (Foliar Spray)": "A beneficial bacterium that controls plant diseases by suppressing harmful fungi through enzymatic activity and competitive growth.",
+    "VAM": "A symbiotic microorganism that forms a microscopic, network-like structure with plant roots. It significantly enhances the transport and uptake of soil nutrients into the plant.",
+    "Microbooster": "A blend designed to manage nutrient deficiencies (containing Zn, Mg, Mn, B, Fe, and Mo) and improve crop health.",
+    "Eugenol": "An aromatic, oily extract utilized as a bio-pesticide or fungicide for controlling plant diseases.",
+    "Sunfert": "An effervescent tablet formulation containing a blend of nutrients (Zn, Mg, Mn, B, Fe, Mo) used to manage deficiencies and improve overall crop health.",
+    "Streptomyces": "A beneficial bacterial culture (Actinobacteria) that aids in plant disease control by producing enzymes that act as natural antibiotics."
   },
   "inputPhotos": {
-    "Seaweed extract": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/6eab4bee-a8a6-4086-95aa-e0ee97fa0d71/1765690061355-mrousavy4843466485169279092.jpg",
-      "type": "IMAGE",
-      "date": "14 Dec 2025",
-      "labRef": "UC-LAB-5039"
-    },
-    "EPN": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/19939d18-266e-4625-9f06-d42d4af54713/1758876396028-mrousavy3866105490275287572.jpg",
-      "type": "IMAGE",
-      "date": "26 Sep 2025",
-      "labRef": "UC-LAB-3400"
-    },
-    "Beauveria bassiana": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/19939d18-266e-4625-9f06-d42d4af54713/1758876396028-mrousavy3866105490275287572.jpg",
-      "type": "IMAGE",
-      "date": "26 Sep 2025",
-      "labRef": "UC-LAB-4152"
-    },
     "Jeevamrit": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/bd9fef28-a81d-43a9-b31f-e2f3a41490b7/1760693526994-mrousavy5513698032414438155.jpg",
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/07373289-c0b1-445f-b80b-a0d58decb3b4/1748424352096-mrousavy2943762981318445016.jpg",
       "type": "IMAGE",
-      "date": "17 Oct 2025",
-      "labRef": "UC-LAB-8031"
-    },
-    "Amino acid": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/52c73f88-d8f0-4ef9-96be-b3ee30f3bb86/1765793273175-mrousavy2975180695457522938.jpg",
-      "type": "IMAGE",
-      "date": "15 Dec 2025",
-      "labRef": "UC-LAB-9065"
-    },
-    "PDR": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/52c73f88-d8f0-4ef9-96be-b3ee30f3bb86/1765793273175-mrousavy2975180695457522938.jpg",
-      "type": "IMAGE",
-      "date": "15 Dec 2025",
-      "labRef": "UC-LAB-4310"
-    },
-    "NPK": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/008de65e-7194-40e4-a7d2-ffc59830083f/1762506224573-mrousavy2618426582088221649.jpg",
-      "type": "IMAGE",
-      "date": "07 Nov 2025",
-      "labRef": "UC-LAB-7045"
-    },
-    "Pseudomonas": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/429e75af-80b6-4ff6-9a8e-479aeaefda7d/1761469900767-mrousavy2804197040730758820.jpg",
-      "type": "IMAGE",
-      "date": "26 Oct 2025",
-      "labRef": "UC-LAB-8404"
-    },
-    "Trichoderma": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/31fe3816-bd75-45d5-9001-b428df46c0cf/1767779565174-mrousavy3395052333787951443.jpg",
-      "type": "IMAGE",
-      "date": "07 Jan 2026",
-      "labRef": "UC-LAB-4711"
-    },
-    "Ferrous sulphate": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/01657434-fa1c-49c0-9cc7-e69ba3d68c6a/1766221893919-mrousavy7000499325734463710.jpg",
-      "type": "IMAGE",
-      "date": "20 Dec 2025",
-      "labRef": "UC-LAB-2719"
-    },
-    "Bordeaux mixture": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/81972b7f-eec0-42b9-9fe4-2c76724f4521/1766566979995-mrousavy7915419623403810600.jpg",
-      "type": "IMAGE",
-      "date": "24 Dec 2025",
-      "labRef": "UC-LAB-4150"
-    },
-    "Compost": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/bd678837-5f73-4ce1-8569-5719f980f486/1763981239381-mrousavy2581153419086527724.jpg",
-      "type": "IMAGE",
-      "date": "24 Nov 2025",
-      "labRef": "UC-LAB-1488"
+      "date": "28 May 2025",
+      "labRef": "UC-LAB-1186"
     },
     "Zyme": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/bd678837-5f73-4ce1-8569-5719f980f486/1763981239381-mrousavy2581153419086527724.jpg",
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/73ef27e0-3c93-4c13-ab4a-7287dc3a4922/1751535706935-mrousavy4508938975826781808.jpg",
       "type": "IMAGE",
-      "date": "24 Nov 2025",
-      "labRef": "UC-LAB-1654"
+      "date": "01 Jul 2025",
+      "labRef": "UC-LAB-4456"
     },
-    "VAM": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/bd678837-5f73-4ce1-8569-5719f980f486/1763981239381-mrousavy2581153419086527724.jpg",
+    "Amino acid": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/c52b764e-bb1d-481e-8a98-60c76bad54a7/1751952421973-mrousavy9183660262120491795.jpg",
       "type": "IMAGE",
-      "date": "24 Nov 2025",
-      "labRef": "UC-LAB-6300"
+      "date": "07 Jul 2025",
+      "labRef": "UC-LAB-7643"
     },
-    "Microbooster": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/bd678837-5f73-4ce1-8569-5719f980f486/1763981239381-mrousavy2581153419086527724.jpg",
+    "Potassium humate": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/879552c2-2c17-4384-b7d9-33ff834a0d92/1752729258234-mrousavy205815975762582824.jpg",
       "type": "IMAGE",
-      "date": "24 Nov 2025",
-      "labRef": "UC-LAB-9114"
+      "date": "15 Jul 2025",
+      "labRef": "UC-LAB-8906"
+    },
+    "Trichoderma": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/09e0750c-aaea-44fd-bef6-6c4c01f8ffee/1753176704042-mrousavy5631832008807810691.jpg",
+      "type": "IMAGE",
+      "date": "22 Jul 2025",
+      "labRef": "UC-LAB-9591"
+    },
+    "Seaweed extract": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/99d3825c-d690-47e0-8dec-96f6d64bffa8/1758691648200-mrousavy2981266797929431445.jpg",
+      "type": "IMAGE",
+      "date": "24 Sep 2025",
+      "labRef": "UC-LAB-8469"
+    },
+    "Humic acid": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/5b5a0ade-0ba7-4288-989b-0f7e6c1ee0f2/1754543160160-mrousavy2111097053218880902.jpg",
+      "type": "IMAGE",
+      "date": "06 Aug 2025",
+      "labRef": "UC-LAB-8551"
     },
     "Turmeric special blend": {
       "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/bd678837-5f73-4ce1-8569-5719f980f486/1763981239381-mrousavy2581153419086527724.jpg",
       "type": "IMAGE",
       "date": "24 Nov 2025",
-      "labRef": "UC-LAB-7889"
+      "labRef": "UC-LAB-3709"
+    },
+    "Microalgal extract": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/d13b4f16-990c-4fb5-9cc9-0cfdc01c1b3e/1756545499104-mrousavy6759930476466468203.jpg",
+      "type": "IMAGE",
+      "date": "29 Aug 2025",
+      "labRef": "UC-LAB-2384"
+    },
+    "Micronutrient mixture": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/3d44a174-8814-4ac6-87ec-1ccd5b09c0c6/1757829837499-mrousavy309998598679127953.jpg",
+      "type": "IMAGE",
+      "date": "08 Sep 2025",
+      "labRef": "UC-LAB-3570"
+    },
+    "Compost": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/e7c9085e-10e6-4a6d-9070-6818c5d985e3/1759037089128-mrousavy2457434924227862132.jpg",
+      "type": "IMAGE",
+      "date": "12 Sep 2025",
+      "labRef": "UC-LAB-2938"
+    },
+    "EPN": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/19939d18-266e-4625-9f06-d42d4af54713/1758876396028-mrousavy3866105490275287572.jpg",
+      "type": "IMAGE",
+      "date": "26 Sep 2025",
+      "labRef": "UC-LAB-2991"
+    },
+    "Beauveria bassiana": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/19939d18-266e-4625-9f06-d42d4af54713/1758876396028-mrousavy3866105490275287572.jpg",
+      "type": "IMAGE",
+      "date": "26 Sep 2025",
+      "labRef": "UC-LAB-8720"
+    },
+    "PDR": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/1491b026-25eb-4670-bf34-687ff706a3c3/1760611633735-mrousavy1645396911993778565.jpg",
+      "type": "IMAGE",
+      "date": "16 Oct 2025",
+      "labRef": "UC-LAB-1656"
+    },
+    "NPK": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/ad6e0941-960f-4ed1-83bc-460aa56b46f1/1761389128716-mrousavy7567946727915329556.jpg",
+      "type": "IMAGE",
+      "date": "25 Oct 2025",
+      "labRef": "UC-LAB-4722"
+    },
+    "Pseudomonas": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/429e75af-80b6-4ff6-9a8e-479aeaefda7d/1761469900767-mrousavy2804197040730758820.jpg",
+      "type": "IMAGE",
+      "date": "26 Oct 2025",
+      "labRef": "UC-LAB-5917"
+    },
+    "Ferrous sulphate": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/6c698779-d968-447f-aa14-c614b1a9553c/1762583471294-mrousavy260348691397717518.jpg",
+      "type": "IMAGE",
+      "date": "08 Nov 2025",
+      "labRef": "UC-LAB-4627"
+    },
+    "Bordeaux mixture": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/81839645-8637-42d7-910c-08e09d2eeeea/1763543289270-mrousavy5378776656946852984.jpg",
+      "type": "IMAGE",
+      "date": "19 Nov 2025",
+      "labRef": "UC-LAB-8834"
+    },
+    "VAM": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/bd678837-5f73-4ce1-8569-5719f980f486/1763981239381-mrousavy2581153419086527724.jpg",
+      "type": "IMAGE",
+      "date": "24 Nov 2025",
+      "labRef": "UC-LAB-4286"
+    },
+    "Microbooster": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/bd678837-5f73-4ce1-8569-5719f980f486/1763981239381-mrousavy2581153419086527724.jpg",
+      "type": "IMAGE",
+      "date": "24 Nov 2025",
+      "labRef": "UC-LAB-6513"
     },
     "Eugenol": {
       "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/6ba1c6c5-4d98-4e04-a005-afc88a939df3/1764483590188-mrousavy8676701953108458564.jpg",
       "type": "IMAGE",
       "date": "30 Nov 2025",
-      "labRef": "UC-LAB-4919"
-    },
-    "Potassium humate": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/6eab4bee-a8a6-4086-95aa-e0ee97fa0d71/1765690061355-mrousavy4843466485169279092.jpg",
-      "type": "IMAGE",
-      "date": "14 Dec 2025",
-      "labRef": "UC-LAB-7058"
+      "labRef": "UC-LAB-9147"
     },
     "Sunfert": {
       "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/572c135c-a393-48a8-b9a3-12084d2b6090/1766051872260-mrousavy409196217491456173.jpg",
       "type": "IMAGE",
       "date": "18 Dec 2025",
-      "labRef": "UC-LAB-7704"
-    },
-    "Microalgal extract": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/1eaac036-aecb-4a26-91cc-64b7f3984e96/1767864015155-mrousavy2739333887503378756.jpg",
-      "type": "IMAGE",
-      "date": "08 Jan 2026",
-      "labRef": "UC-LAB-4410"
+      "labRef": "UC-LAB-7354"
     },
     "Streptomyces": {
       "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/d0f9e67b-2760-4e70-aeb6-0f265de87e42/1767434411110-mrousavy8270153709024620023.jpg",
       "type": "IMAGE",
       "date": "03 Jan 2026",
-      "labRef": "UC-LAB-9332"
+      "labRef": "UC-LAB-2434"
     }
   }
 };

@@ -15,9 +15,9 @@ window.PASSPORT_DATA = {
     "lat": 24.601660016,
     "lon": 73.960907373
   },
-  "plots": "A1, A4, 1, 3, 4, 6, 2, 5",
-  "firstDate": "06 Nov 2025",
-  "lastDate": "06 Apr 2026",
+  "plots": "B1",
+  "firstDate": "10 Nov 2025",
+  "lastDate": "18 Mar 2026",
   "team": [
     {
       "name": "Tejpal Singh",
@@ -29,142 +29,387 @@ window.PASSPORT_DATA = {
   "events": [
     {
       "id": "event-01",
-      "date": "06 Nov 2025",
-      "category": "Sowing",
-      "description": "sowing of wheat in plot A1 and A4.",
-      "plots": [
-        "A1",
-        "A4"
-      ],
+      "date": "10 Nov 2025",
+      "category": "Other",
+      "description": "Compost application.",
+      "plots": [],
       "execs": [
         {
           "name": "Tejpal Singh",
           "hindi": "तेजपाल सिंह"
         }
       ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/070aa935-62d3-4e1d-887d-e84f65c10c60/1762404074604-mrousavy3678215311714991959.jpg",
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/4af0416d-0130-4fb7-b98f-7074a407d48e/1762773311086-mrousavy1649094211918000612.jpg",
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-06 04:41:15.009+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
       "id": "event-02",
-      "date": "26 Dec 2025",
-      "category": "Spraying / Drenching",
-      "description": "Mix  1 kg of amino acid and 200 g of PDR in 200 liters of water and spray to wheat and flax seed in Plot-1, 3, 4",
-      "plots": [
-        "1",
-        "3",
-        "4"
-      ],
+      "date": "11 Nov 2025",
+      "category": "Sowing",
+      "description": "Sowing of Wheat.",
+      "plots": [],
       "execs": [
         {
           "name": "Tejpal Singh",
           "hindi": "तेजपाल सिंह"
         }
       ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/e823f609-c8e2-4765-a37b-b0e56715519c/1766725750506-mrousavy7032565291665212380.jpg",
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/aea258fc-0e02-46bb-9c9d-dbf3e523b69f/1762847679356-mrousavy2825622383986751199.jpg",
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-26 05:09:10.905+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
       "id": "event-03",
-      "date": "26 Dec 2025",
+      "date": "06 Dec 2025",
       "category": "Spraying / Drenching",
-      "description": "Mix 500g of potassium humate and 200g of seaweed extract in 200 liters of water and drench in Plot-6 wheat, chickpea and barley",
-      "plots": [
-        "6"
-      ],
+      "description": "Drench Jeev Amrit + NPK in Wheat.",
+      "plots": [],
       "execs": [
         {
           "name": "Tejpal Singh",
           "hindi": "तेजपाल सिंह"
         }
       ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/70f413be-6037-4c1c-a274-ba69cd8eac99/1766738534608-mrousavy8616461834383669559.jpg",
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/d9b02b05-b0cf-4276-80f6-7c58561b1594/1764998681145-mrousavy5201931684584345583.jpg",
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-26 08:42:14.779+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
       "id": "event-04",
-      "date": "05 Jan 2026",
+      "date": "06 Dec 2025",
       "category": "Spraying / Drenching",
-      "description": "Mix  3 boxes of sunfert in 450 liters of water and spray to wheat, flaxseed, oats, chickpea, chia in plot-6, 2, 1, 4",
-      "plots": [
-        "6",
-        "2",
-        "1",
-        "4"
-      ],
+      "description": "Drenching with 30 liters of Jeevamrith and 4 liters of NPK consortia in wheat.",
+      "plots": [],
       "execs": [
         {
           "name": "Tejpal Singh",
           "hindi": "तेजपाल सिंह"
         }
       ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/c4460af8-2e3a-4ee9-a5c5-4fb4a010dc28/1767610029478-mrousavy3825795843593646968.jpg",
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/3deffa2b-cfbf-4091-836a-c50b31b928e7/1765004342775-mrousavy8428577379969592706.jpg",
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-01-05 10:47:09.946+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
       "id": "event-05",
-      "date": "03 Apr 2026",
-      "category": "Harvesting",
-      "description": "Do Harvesting NSC Wheat plot-6",
-      "plots": [
-        "6"
-      ],
+      "date": "01 Jan 2026",
+      "category": "Spraying / Drenching",
+      "description": "Mix 2kg of amino acid and 400g of PDR in 400 liters of water and spray to wheat",
+      "plots": [],
       "execs": [
         {
           "name": "Tejpal Singh",
           "hindi": "तेजपाल सिंह"
         }
       ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/c93fa73b-567f-465a-8838-82b52a2bc4d5/1775218848942-mrousavy8861412999657528439.jpg",
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/817a9ef5-0bd9-4b1a-b244-49cc8eaa9aab/1767247702921-mrousavy8800368049630463524.jpg",
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-04-03 12:20:49.298+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
       "id": "event-06",
-      "date": "06 Apr 2026",
-      "category": "Maintenance",
-      "description": "Threshing Of NSC Wheat Plot -5",
-      "plots": [
-        "5"
-      ],
+      "date": "02 Jan 2026",
+      "category": "Sowing",
+      "description": "Gap filling of Wheat.",
+      "plots": [],
+      "execs": [],
+      "photo": null,
+      "photoType": null,
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 0
+    },
+    {
+      "id": "event-07",
+      "date": "07 Jan 2026",
+      "category": "Spraying / Drenching",
+      "description": "Mix 2 boxes of sunfert in 300 liters of water and spray to wheat.",
+      "plots": [],
       "execs": [
         {
           "name": "Tejpal Singh",
           "hindi": "तेजपाल सिंह"
         }
       ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/0deb7a04-e4d9-4bd8-9903-5273944d2766/1775446252620-mrousavy2583236230810614047.jpg",
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/9b93ab26-6f38-479d-a2d8-f3ceaeef3ca3/1767783667447-mrousavy5443306467194668029.jpg",
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-04-06 03:30:52.726+00",
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-08",
+      "date": "12 Jan 2026",
+      "category": "Spraying / Drenching",
+      "description": "Cow urine (5 L/200 L) + PDR (200 gms/200 L) + Microalgal (2 L/200 L) spray",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Tejpal Singh",
+          "hindi": "तेजपाल सिंह"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/a1ccf0cc-a5cb-4fb5-912b-3b900f075d60/1768213083833-mrousavy5260412395736178036.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-09",
+      "date": "14 Jan 2026",
+      "category": "Spraying / Drenching",
+      "description": "Spray Cow Urine + Amino acids + Microalgal to all wheat.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Tejpal Singh",
+          "hindi": "तेजपाल सिंह"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/1e699fe7-91f6-4215-9aba-7ac51a2cac99/1768366056562-mrousavy8007136501655214835.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-10",
+      "date": "16 Jan 2026",
+      "category": "Spraying / Drenching",
+      "description": "Mix cow urine + buttermilk and spray to wheat.",
+      "plots": [],
+      "execs": [],
+      "photo": null,
+      "photoType": null,
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 0
+    },
+    {
+      "id": "event-11",
+      "date": "17 Jan 2026",
+      "category": "Irrigation",
+      "description": "Irrigation in Wheat",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Tejpal Singh",
+          "hindi": "तेजपाल सिंह"
+        }
+      ],
+      "photo": null,
+      "photoType": null,
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 0
+    },
+    {
+      "id": "event-12",
+      "date": "26 Jan 2026",
+      "category": "Spraying / Drenching",
+      "description": "Sunfert tab",
+      "plots": [
+        "B1"
+      ],
+      "execs": [],
+      "photo": null,
+      "photoType": null,
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 0
+    },
+    {
+      "id": "event-13",
+      "date": "01 Feb 2026",
+      "category": "Spraying / Drenching",
+      "description": "Mix Amino acid 10 gm/L, Microalgal 5ml/L and Cow urine 50ml per L of water and spray to Wheat.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Tejpal Singh",
+          "hindi": "तेजपाल सिंह"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/adc44bb1-f55d-43cf-be44-315d81c6b46f/1769923671589-mrousavy4062639042292840623.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-14",
+      "date": "24 Feb 2026",
+      "category": "Spraying / Drenching",
+      "description": "Mix Amino Acid + PDR + Microalgal and spray it to old wheat",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Tejpal Singh",
+          "hindi": "तेजपाल सिंह"
+        }
+      ],
+      "photo": null,
+      "photoType": null,
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 0
+    },
+    {
+      "id": "event-15",
+      "date": "15 Mar 2026",
+      "category": "Harvesting",
+      "description": "Harvest Bansi Gold wheat by Reaper",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Tejpal Singh",
+          "hindi": "तेजपाल सिंह"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/e284777c-c6f8-4a2f-adf1-ff3ddc1b99b0/1773732575791-mrousavy6176244140247516147.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-16",
+      "date": "18 Mar 2026",
+      "category": "Other",
+      "description": "Do threshing of Bansi Gold wheat.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Tejpal Singh",
+          "hindi": "तेजपाल सिंह"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/fd8eab64-aea7-41b5-a459-366869882150/1773816914067-mrousavy3947975047761700923.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
       "mediaCount": 1
     }
   ],
   "inputDetails": {
+    "Compost": [
+      {
+        "date": "10 Nov 2025",
+        "description": "Compost application.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      }
+    ],
+    "Jeevamrit": [
+      {
+        "date": "06 Dec 2025",
+        "description": "Drench Jeev Amrit + NPK in Wheat.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "06 Dec 2025",
+        "description": "Drenching with 30 liters of Jeevamrith and 4 liters of NPK consortia in wheat.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      }
+    ],
+    "NPK": [
+      {
+        "date": "06 Dec 2025",
+        "description": "Drench Jeev Amrit + NPK in Wheat.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "06 Dec 2025",
+        "description": "Drenching with 30 liters of Jeevamrith and 4 liters of NPK consortia in wheat.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      }
+    ],
     "Amino acid": [
       {
-        "date": "26 Dec 2025",
-        "description": "Mix  1 kg of amino acid and 200 g of PDR in 200 liters of water and spray to wheat and flax seed in Plot-1, 3, 4",
+        "date": "01 Jan 2026",
+        "description": "Mix 2kg of amino acid and 400g of PDR in 400 liters of water and spray to wheat",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "14 Jan 2026",
+        "description": "Spray Cow Urine + Amino acids + Microalgal to all wheat.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "01 Feb 2026",
+        "description": "Mix Amino acid 10 gm/L, Microalgal 5ml/L and Cow urine 50ml per L of water and spray to Wheat.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "24 Feb 2026",
+        "description": "Mix Amino Acid + PDR + Microalgal and spray it to old wheat",
         "execs": [
           {
             "name": "Tejpal Singh",
@@ -175,32 +420,28 @@ window.PASSPORT_DATA = {
     ],
     "PDR": [
       {
-        "date": "26 Dec 2025",
-        "description": "Mix  1 kg of amino acid and 200 g of PDR in 200 liters of water and spray to wheat and flax seed in Plot-1, 3, 4",
+        "date": "01 Jan 2026",
+        "description": "Mix 2kg of amino acid and 400g of PDR in 400 liters of water and spray to wheat",
         "execs": [
           {
             "name": "Tejpal Singh",
             "hindi": "तेजपाल सिंह"
           }
         ]
-      }
-    ],
-    "Potassium humate": [
+      },
       {
-        "date": "26 Dec 2025",
-        "description": "Mix 500g of potassium humate and 200g of seaweed extract in 200 liters of water and drench in Plot-6 wheat, chickpea and barley",
+        "date": "12 Jan 2026",
+        "description": "Cow urine (5 L/200 L) + PDR (200 gms/200 L) + Microalgal (2 L/200 L) spray",
         "execs": [
           {
             "name": "Tejpal Singh",
             "hindi": "तेजपाल सिंह"
           }
         ]
-      }
-    ],
-    "Seaweed extract": [
+      },
       {
-        "date": "26 Dec 2025",
-        "description": "Mix 500g of potassium humate and 200g of seaweed extract in 200 liters of water and drench in Plot-6 wheat, chickpea and barley",
+        "date": "24 Feb 2026",
+        "description": "Mix Amino Acid + PDR + Microalgal and spray it to old wheat",
         "execs": [
           {
             "name": "Tejpal Singh",
@@ -211,8 +452,50 @@ window.PASSPORT_DATA = {
     ],
     "Sunfert": [
       {
-        "date": "05 Jan 2026",
-        "description": "Mix  3 boxes of sunfert in 450 liters of water and spray to wheat, flaxseed, oats, chickpea, chia in plot-6, 2, 1, 4",
+        "date": "07 Jan 2026",
+        "description": "Mix 2 boxes of sunfert in 300 liters of water and spray to wheat.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "26 Jan 2026",
+        "description": "Sunfert tab",
+        "execs": []
+      }
+    ],
+    "Cow urine": [
+      {
+        "date": "12 Jan 2026",
+        "description": "Cow urine (5 L/200 L) + PDR (200 gms/200 L) + Microalgal (2 L/200 L) spray",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "14 Jan 2026",
+        "description": "Spray Cow Urine + Amino acids + Microalgal to all wheat.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "16 Jan 2026",
+        "description": "Mix cow urine + buttermilk and spray to wheat.",
+        "execs": []
+      },
+      {
+        "date": "01 Feb 2026",
+        "description": "Mix Amino acid 10 gm/L, Microalgal 5ml/L and Cow urine 50ml per L of water and spray to Wheat.",
         "execs": [
           {
             "name": "Tejpal Singh",
@@ -220,45 +503,106 @@ window.PASSPORT_DATA = {
           }
         ]
       }
+    ],
+    "Microalgal extract": [
+      {
+        "date": "12 Jan 2026",
+        "description": "Cow urine (5 L/200 L) + PDR (200 gms/200 L) + Microalgal (2 L/200 L) spray",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "01 Feb 2026",
+        "description": "Mix Amino acid 10 gm/L, Microalgal 5ml/L and Cow urine 50ml per L of water and spray to Wheat.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "24 Feb 2026",
+        "description": "Mix Amino Acid + PDR + Microalgal and spray it to old wheat",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      }
+    ],
+    "Buttermilk": [
+      {
+        "date": "16 Jan 2026",
+        "description": "Mix cow urine + buttermilk and spray to wheat.",
+        "execs": []
+      }
     ]
   },
   "inputInfo": {
-    "Amino acid": "A foliar biostimulant supplying free amino acids to support protein synthesis, nutrient uptake and recovery from stress.",
-    "PDR": "A plant-nutrition formulation commonly tank-mixed with amino-acid sprays on this farm; the exact composition is set by its manufacturer and not detailed in the farm record.",
-    "Potassium humate": "A humic-acid-based soil conditioner and biostimulant that improves nutrient uptake and root development.",
-    "Seaweed extract": "A biostimulant derived from marine algae, used to support root growth and stress tolerance.",
-    "Sunfert": "A branded water-soluble nutrient formulation used as a foliar/fertigation feed; the manufacturer's exact composition isn't detailed in the farm record."
+    "Compost": "Farmyard manure decomposed using microbial cultures. It acts as a source of NPK and trace nutrients, provides beneficial microbial biomass, and improves soil texture and condition.",
+    "Jeevamrit": "A liquid organic fertilizer based on cow dung and cow urine that contains beneficial microbes. It improves soil microflora and enhances plant nutrition.",
+    "NPK": "A beneficial microbial consortium that biologically fixes atmospheric nitrogen, solubilizes phosphorus, and mobilizes potassium to make these essential nutrients readily available to plants.",
+    "Amino acid": "A water-soluble powder formulation rich in amino acids that also serves as a source of nitrogen. It is used to support plant protein synthesis and stress tolerance.",
+    "PDR": "A natural source of potassium derived from red algae (Rhodophytes) that also possesses inherent plant growth-promoting properties.",
+    "Sunfert": "An effervescent tablet formulation containing a blend of nutrients (Zn, Mg, Mn, B, Fe, Mo) used to manage deficiencies and improve overall crop health.",
+    "Cow urine": "A natural source of nitrogen that also possesses antimicrobial properties to improve overall crop health.",
+    "Microalgal extract": "An extract derived from microalgae that contains trace micronutrients. It aids in stress management, improves plant growth, and enhances flowering and fruiting.",
+    "Buttermilk": "Well-fermented buttermilk contains bacterial enzymes that act as natural antibiotics."
   },
   "inputPhotos": {
-    "Amino acid": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/e823f609-c8e2-4765-a37b-b0e56715519c/1766725750506-mrousavy7032565291665212380.jpg",
+    "Compost": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/4af0416d-0130-4fb7-b98f-7074a407d48e/1762773311086-mrousavy1649094211918000612.jpg",
       "type": "IMAGE",
-      "date": "26 Dec 2025",
-      "labRef": "UC-LAB-2229"
+      "date": "10 Nov 2025",
+      "labRef": "UC-LAB-6748"
+    },
+    "Jeevamrit": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/d9b02b05-b0cf-4276-80f6-7c58561b1594/1764998681145-mrousavy5201931684584345583.jpg",
+      "type": "IMAGE",
+      "date": "06 Dec 2025",
+      "labRef": "UC-LAB-4940"
+    },
+    "NPK": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/d9b02b05-b0cf-4276-80f6-7c58561b1594/1764998681145-mrousavy5201931684584345583.jpg",
+      "type": "IMAGE",
+      "date": "06 Dec 2025",
+      "labRef": "UC-LAB-3364"
+    },
+    "Amino acid": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/817a9ef5-0bd9-4b1a-b244-49cc8eaa9aab/1767247702921-mrousavy8800368049630463524.jpg",
+      "type": "IMAGE",
+      "date": "01 Jan 2026",
+      "labRef": "UC-LAB-9138"
     },
     "PDR": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/e823f609-c8e2-4765-a37b-b0e56715519c/1766725750506-mrousavy7032565291665212380.jpg",
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/817a9ef5-0bd9-4b1a-b244-49cc8eaa9aab/1767247702921-mrousavy8800368049630463524.jpg",
       "type": "IMAGE",
-      "date": "26 Dec 2025",
-      "labRef": "UC-LAB-8733"
-    },
-    "Potassium humate": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/70f413be-6037-4c1c-a274-ba69cd8eac99/1766738534608-mrousavy8616461834383669559.jpg",
-      "type": "IMAGE",
-      "date": "26 Dec 2025",
-      "labRef": "UC-LAB-8057"
-    },
-    "Seaweed extract": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/70f413be-6037-4c1c-a274-ba69cd8eac99/1766738534608-mrousavy8616461834383669559.jpg",
-      "type": "IMAGE",
-      "date": "26 Dec 2025",
-      "labRef": "UC-LAB-3551"
+      "date": "01 Jan 2026",
+      "labRef": "UC-LAB-8319"
     },
     "Sunfert": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/c4460af8-2e3a-4ee9-a5c5-4fb4a010dc28/1767610029478-mrousavy3825795843593646968.jpg",
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/9b93ab26-6f38-479d-a2d8-f3ceaeef3ca3/1767783667447-mrousavy5443306467194668029.jpg",
       "type": "IMAGE",
-      "date": "05 Jan 2026",
-      "labRef": "UC-LAB-4705"
+      "date": "07 Jan 2026",
+      "labRef": "UC-LAB-2180"
+    },
+    "Cow urine": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/a1ccf0cc-a5cb-4fb5-912b-3b900f075d60/1768213083833-mrousavy5260412395736178036.jpg",
+      "type": "IMAGE",
+      "date": "12 Jan 2026",
+      "labRef": "UC-LAB-2850"
+    },
+    "Microalgal extract": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/a1ccf0cc-a5cb-4fb5-912b-3b900f075d60/1768213083833-mrousavy5260412395736178036.jpg",
+      "type": "IMAGE",
+      "date": "12 Jan 2026",
+      "labRef": "UC-LAB-2828"
     }
   }
 };

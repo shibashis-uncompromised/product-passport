@@ -15,9 +15,9 @@ window.PASSPORT_DATA = {
     "lat": 24.601660016,
     "lon": 73.960907373
   },
-  "plots": "5",
-  "firstDate": "11 Nov 2025",
-  "lastDate": "22 Mar 2026",
+  "plots": "A5",
+  "firstDate": "28 Oct 2025",
+  "lastDate": "13 Mar 2026",
   "team": [
     {
       "name": "Tejpal Singh",
@@ -29,9 +29,9 @@ window.PASSPORT_DATA = {
   "events": [
     {
       "id": "event-01",
-      "date": "11 Nov 2025",
-      "category": "Field Preparation",
-      "description": "A5 field preparation for masoor and flax seed",
+      "date": "28 Oct 2025",
+      "category": "Sowing",
+      "description": "sowing of masoor",
       "plots": [],
       "execs": [
         {
@@ -39,41 +39,20 @@ window.PASSPORT_DATA = {
           "hindi": "तेजपाल सिंह"
         }
       ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/54aacd2e-dd44-4fa2-8f68-9efcfafdceb6/1762847860588-mrousavy1419507431706616782.jpg",
-      "photoType": "IMAGE",
+      "photo": null,
+      "photoType": null,
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-11 07:57:41.019+00",
-      "mediaCount": 1
+      "photoCapturedAt": null,
+      "mediaCount": 0
     },
     {
       "id": "event-02",
-      "date": "16 Nov 2025",
-      "category": "Sowing",
-      "description": "sowing of linseed and masoor in Plot-5",
-      "plots": [
-        "5"
-      ],
-      "execs": [
-        {
-          "name": "Tejpal Singh",
-          "hindi": "तेजपाल सिंह"
-        }
-      ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/f2fc1dec-bc8c-41fa-97f8-cfda4877716a/1763271752656-mrousavy1427727521494911283.jpg",
-      "photoType": "IMAGE",
-      "photoLat": null,
-      "photoLon": null,
-      "photoCapturedAt": "2025-11-16 05:42:33.077+00",
-      "mediaCount": 1
-    },
-    {
-      "id": "event-03",
       "date": "15 Dec 2025",
       "category": "Weeding",
-      "description": "Weeding in Plot-5",
+      "description": "Weeding",
       "plots": [
-        "5"
+        "A5"
       ],
       "execs": [
         {
@@ -85,7 +64,26 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-15 08:43:19.049+00",
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-03",
+      "date": "25 Dec 2025",
+      "category": "Spraying / Drenching",
+      "description": "Mix 20 liters of jeevamrit and 5 liters of NPK consortia in 300 liters of water and provide through drip",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Tejpal Singh",
+          "hindi": "तेजपाल सिंह"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/9944346a-dff1-4a73-9b79-ee45847ec635/1766647376202-mrousavy3023766730763635879.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
@@ -104,35 +102,16 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-25 10:48:20.684+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
       "id": "event-05",
-      "date": "25 Dec 2025",
-      "category": "Spraying / Drenching",
-      "description": "Mix 20 liters of jeevamrit and 5 liters of NPK consortia in 300 liters of water and provide through drip",
-      "plots": [],
-      "execs": [
-        {
-          "name": "Tejpal Singh",
-          "hindi": "तेजपाल सिंह"
-        }
-      ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/9944346a-dff1-4a73-9b79-ee45847ec635/1766647376202-mrousavy3023766730763635879.jpg",
-      "photoType": "IMAGE",
-      "photoLat": null,
-      "photoLon": null,
-      "photoCapturedAt": "2025-12-25 07:22:56.379+00",
-      "mediaCount": 1
-    },
-    {
-      "id": "event-06",
       "date": "03 Jan 2026",
       "category": "Spraying / Drenching",
-      "description": "Mix 2 boxes of sunfert in 300 liters of water and spray to masoor, flaxseed in Plot-5",
+      "description": "Mix 2 boxes of sunfert in 300 liters of water and spray to masoor",
       "plots": [
-        "5"
+        "A5"
       ],
       "execs": [
         {
@@ -144,14 +123,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-01-03 10:53:34.265+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-07",
-      "date": "22 Mar 2026",
-      "category": "Harvesting",
-      "description": "Do threshing of masoor",
+      "id": "event-06",
+      "date": "28 Jan 2026",
+      "category": "Spraying / Drenching",
+      "description": "Spray Sunfert tablets + Amino acid (10gms/L)+ PDR (1gm/L) in Lentil in Plot 4, 5 and 2",
       "plots": [],
       "execs": [
         {
@@ -159,39 +138,53 @@ window.PASSPORT_DATA = {
           "hindi": "तेजपाल सिंह"
         }
       ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/004f43ff-9a1c-4a3b-8734-9bbca3eff317/1774154791307-mrousavy3996188511379770894.jpg",
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/73b30da1-4a3d-47f5-80ee-ceff65c9fe66/1769759188559-mrousavy4400018361637428765.jpg",
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-03-22 04:46:31.441+00",
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-07",
+      "date": "24 Feb 2026",
+      "category": "Spraying / Drenching",
+      "description": "Mix Amino Acid + PDR + Microalgal and spray it to Masoor.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Tejpal Singh",
+          "hindi": "तेजपाल सिंह"
+        }
+      ],
+      "photo": null,
+      "photoType": null,
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 0
+    },
+    {
+      "id": "event-08",
+      "date": "13 Mar 2026",
+      "category": "Maintenance",
+      "description": "Do threshing of masoor in Plot 5.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Tejpal Singh",
+          "hindi": "तेजपाल सिंह"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/f0e6b3a0-f775-4d82-a3ce-11784810ee02/1773646469430-mrousavy4178891960748576356.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
       "mediaCount": 1
     }
   ],
   "inputDetails": {
-    "Amino acid": [
-      {
-        "date": "25 Dec 2025",
-        "description": "Mix 1 kg amino acid and 200 g of PDR in 200 liters of water and spray to lentil plants",
-        "execs": [
-          {
-            "name": "Tejpal Singh",
-            "hindi": "तेजपाल सिंह"
-          }
-        ]
-      }
-    ],
-    "PDR": [
-      {
-        "date": "25 Dec 2025",
-        "description": "Mix 1 kg amino acid and 200 g of PDR in 200 liters of water and spray to lentil plants",
-        "execs": [
-          {
-            "name": "Tejpal Singh",
-            "hindi": "तेजपाल सिंह"
-          }
-        ]
-      }
-    ],
     "Jeevamrit": [
       {
         "date": "25 Dec 2025",
@@ -216,10 +209,96 @@ window.PASSPORT_DATA = {
         ]
       }
     ],
+    "Amino acid": [
+      {
+        "date": "25 Dec 2025",
+        "description": "Mix 1 kg amino acid and 200 g of PDR in 200 liters of water and spray to lentil plants",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "28 Jan 2026",
+        "description": "Spray Sunfert tablets + Amino acid (10gms/L)+ PDR (1gm/L) in Lentil in Plot 4, 5 and 2",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "24 Feb 2026",
+        "description": "Mix Amino Acid + PDR + Microalgal and spray it to Masoor.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      }
+    ],
+    "PDR": [
+      {
+        "date": "25 Dec 2025",
+        "description": "Mix 1 kg amino acid and 200 g of PDR in 200 liters of water and spray to lentil plants",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "28 Jan 2026",
+        "description": "Spray Sunfert tablets + Amino acid (10gms/L)+ PDR (1gm/L) in Lentil in Plot 4, 5 and 2",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "24 Feb 2026",
+        "description": "Mix Amino Acid + PDR + Microalgal and spray it to Masoor.",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      }
+    ],
     "Sunfert": [
       {
         "date": "03 Jan 2026",
-        "description": "Mix 2 boxes of sunfert in 300 liters of water and spray to masoor, flaxseed in Plot-5",
+        "description": "Mix 2 boxes of sunfert in 300 liters of water and spray to masoor",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      },
+      {
+        "date": "28 Jan 2026",
+        "description": "Spray Sunfert tablets + Amino acid (10gms/L)+ PDR (1gm/L) in Lentil in Plot 4, 5 and 2",
+        "execs": [
+          {
+            "name": "Tejpal Singh",
+            "hindi": "तेजपाल सिंह"
+          }
+        ]
+      }
+    ],
+    "Microalgal extract": [
+      {
+        "date": "24 Feb 2026",
+        "description": "Mix Amino Acid + PDR + Microalgal and spray it to Masoor.",
         "execs": [
           {
             "name": "Tejpal Singh",
@@ -230,42 +309,43 @@ window.PASSPORT_DATA = {
     ]
   },
   "inputInfo": {
-    "Amino acid": "A foliar biostimulant supplying free amino acids to support protein synthesis, nutrient uptake and recovery from stress.",
-    "PDR": "A plant-nutrition formulation commonly tank-mixed with amino-acid sprays on this farm; the exact composition is set by its manufacturer and not detailed in the farm record.",
-    "Jeevamrit": "A traditional fermented liquid biofertilizer (cow dung, cow urine, jaggery, pulse flour and soil) used in natural farming to build up soil microbial activity and nutrient availability.",
-    "NPK": "A nitrogen-phosphorus-potassium fertilizer or nutrient consortia, the standard macronutrient feed for crop growth.",
-    "Sunfert": "A branded water-soluble nutrient formulation used as a foliar/fertigation feed; the manufacturer's exact composition isn't detailed in the farm record."
+    "Jeevamrit": "A liquid organic fertilizer based on cow dung and cow urine that contains beneficial microbes. It improves soil microflora and enhances plant nutrition.",
+    "NPK": "A beneficial microbial consortium that biologically fixes atmospheric nitrogen, solubilizes phosphorus, and mobilizes potassium to make these essential nutrients readily available to plants.",
+    "Amino acid": "A water-soluble powder formulation rich in amino acids that also serves as a source of nitrogen. It is used to support plant protein synthesis and stress tolerance.",
+    "PDR": "A natural source of potassium derived from red algae (Rhodophytes) that also possesses inherent plant growth-promoting properties.",
+    "Sunfert": "An effervescent tablet formulation containing a blend of nutrients (Zn, Mg, Mn, B, Fe, Mo) used to manage deficiencies and improve overall crop health.",
+    "Microalgal extract": "An extract derived from microalgae that contains trace micronutrients. It aids in stress management, improves plant growth, and enhances flowering and fruiting."
   },
   "inputPhotos": {
-    "Amino acid": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/6f8b809a-c812-492a-b697-79dd3da46aba/1766659700284-mrousavy4358828982657967692.jpg",
-      "type": "IMAGE",
-      "date": "25 Dec 2025",
-      "labRef": "UC-LAB-9016"
-    },
-    "PDR": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/6f8b809a-c812-492a-b697-79dd3da46aba/1766659700284-mrousavy4358828982657967692.jpg",
-      "type": "IMAGE",
-      "date": "25 Dec 2025",
-      "labRef": "UC-LAB-1338"
-    },
     "Jeevamrit": {
       "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/9944346a-dff1-4a73-9b79-ee45847ec635/1766647376202-mrousavy3023766730763635879.jpg",
       "type": "IMAGE",
       "date": "25 Dec 2025",
-      "labRef": "UC-LAB-8806"
+      "labRef": "UC-LAB-3811"
     },
     "NPK": {
       "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/9944346a-dff1-4a73-9b79-ee45847ec635/1766647376202-mrousavy3023766730763635879.jpg",
       "type": "IMAGE",
       "date": "25 Dec 2025",
-      "labRef": "UC-LAB-3847"
+      "labRef": "UC-LAB-8968"
+    },
+    "Amino acid": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/6f8b809a-c812-492a-b697-79dd3da46aba/1766659700284-mrousavy4358828982657967692.jpg",
+      "type": "IMAGE",
+      "date": "25 Dec 2025",
+      "labRef": "UC-LAB-1506"
+    },
+    "PDR": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/6f8b809a-c812-492a-b697-79dd3da46aba/1766659700284-mrousavy4358828982657967692.jpg",
+      "type": "IMAGE",
+      "date": "25 Dec 2025",
+      "labRef": "UC-LAB-4593"
     },
     "Sunfert": {
       "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/e403683e-d276-426a-865d-c9af6a275015/1767437613909-mrousavy6615529597995966499.jpg",
       "type": "IMAGE",
       "date": "03 Jan 2026",
-      "labRef": "UC-LAB-9354"
+      "labRef": "UC-LAB-9705"
     }
   }
 };

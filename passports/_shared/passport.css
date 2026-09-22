@@ -141,7 +141,7 @@ html[data-theme=light] .report-figure figcaption{background:#faf8f3cc;color:#555
    from the details column (align-items:stretch), and the photo fills it via an absolutely
    positioned img, so the image bottom concludes level with the Batch ID row. */
 .item-photo-plate{margin:0;background:var(--surface);overflow:hidden;position:relative}
-.item-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.item-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}.item-photo-button{position:absolute;inset:0;display:block;width:100%;height:100%}
 .product-identity{grid-template-columns:220px minmax(0,1fr);gap:26px;align-items:stretch}
 @media(min-width:1000px){.product-identity{grid-template-columns:240px minmax(0,1fr);gap:30px}}
 @media(max-width:540px){.product-identity{grid-template-columns:150px minmax(0,1fr);gap:16px}}

@@ -15,7 +15,7 @@ window.PASSPORT_DATA = {
     "lat": 24.558790168,
     "lon": 73.626753452
   },
-  "plots": "6, 7, 8",
+  "plots": "NA5, NB4",
   "firstDate": "28 Nov 2025",
   "lastDate": "09 Apr 2026",
   "team": [
@@ -38,33 +38,11 @@ window.PASSPORT_DATA = {
     {
       "id": "event-01",
       "date": "28 Nov 2025",
-      "category": "Other",
-      "description": "Compost application in plot-6,7 for wheat",
-      "plots": [
-        "6",
-        "7"
-      ],
-      "execs": [
-        {
-          "name": "Vela Ram",
-          "hindi": "वेला राम"
-        }
-      ],
-      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/bc823932-7f97-4b84-9ce5-efff18302e08/1764326609374-mrousavy997697673827895640.jpg",
-      "photoType": "IMAGE",
-      "photoLat": null,
-      "photoLon": null,
-      "photoCapturedAt": "2025-11-28 10:43:29.815+00",
-      "mediaCount": 1
-    },
-    {
-      "id": "event-02",
-      "date": "28 Nov 2025",
       "category": "Field Preparation",
-      "description": "Land preparation in Plot-6 & 7",
+      "description": "Land preparation",
       "plots": [
-        "6",
-        "7"
+        "NA5",
+        "NB4"
       ],
       "execs": [
         {
@@ -76,7 +54,29 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-28 10:44:06.834+00",
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-02",
+      "date": "28 Nov 2025",
+      "category": "Other",
+      "description": "Compost application for wheat",
+      "plots": [
+        "NA5",
+        "NB4"
+      ],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/bc823932-7f97-4b84-9ce5-efff18302e08/1764326609374-mrousavy997697673827895640.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
@@ -95,18 +95,15 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-11-30 04:31:06.44+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
       "id": "event-04",
       "date": "02 Dec 2025",
       "category": "Irrigation",
-      "description": "prepare furrow for irrigation in wheat plot no. 8 & 6",
-      "plots": [
-        "8",
-        "6"
-      ],
+      "description": "Prepare furrow for irrigation in wheat.",
+      "plots": [],
       "execs": [
         {
           "name": "Vela Ram",
@@ -117,14 +114,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-02 08:44:20.07+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
       "id": "event-05",
       "date": "12 Dec 2025",
       "category": "Irrigation",
-      "description": "15liters of Jeev Amrit + 1.5 liters of AMC application in wheat irrigation",
+      "description": "15 liters of Jeev Amrit + 1.5 liters of AMC application in wheat irrigation.",
       "plots": [],
       "execs": [
         {
@@ -136,11 +133,49 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2025-12-12 07:30:52.63+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
       "id": "event-06",
+      "date": "17 Dec 2025",
+      "category": "Spraying / Drenching",
+      "description": "Mix 500 gram of Humic Acid + 200 gram of seaweed extract in 200 liters of water and apply to wheat via drip.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/a4ba9d7a-ce2f-41d4-9482-f9cc5ebe564b/1765961614352-mrousavy3736501139109122271.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-07",
+      "date": "19 Dec 2025",
+      "category": "Spraying / Drenching",
+      "description": "Mix 1 kg of Amino Acid + 200 gram of PDR in 200 liters of water and spray it to wheat.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/d0d92374-068b-448d-9f49-1238ce18364a/1766210169757-mrousavy2930177104243449590.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-08",
       "date": "02 Jan 2026",
       "category": "Other",
       "description": "Put sticky traps in wheat",
@@ -155,14 +190,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-01-02 09:48:13.111+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-07",
+      "id": "event-09",
       "date": "05 Jan 2026",
       "category": "Spraying / Drenching",
-      "description": "Mix 200 g of Potassium humate and 75 g of seaweed extract in 100 liters of water and drench in wheat plot",
+      "description": "Mix 200 g of Potassium humate and 75 g of seaweed extract in 100 liters of water and drench in wheat",
       "plots": [],
       "execs": [
         {
@@ -174,14 +209,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-01-05 10:14:10.748+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-08",
+      "id": "event-10",
       "date": "15 Jan 2026",
       "category": "Spraying / Drenching",
-      "description": "Mix 2L Cow Urine and 200 gms Amino acid in 75 L of Water and Spray to Wheat crop",
+      "description": "Mix 2L cow urine and 200 gms amino acid in 75 L of water and spray to wheat crop.",
       "plots": [],
       "execs": [
         {
@@ -193,14 +228,33 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-01-15 10:04:06.089+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-09",
+      "id": "event-11",
+      "date": "17 Jan 2026",
+      "category": "Spraying / Drenching",
+      "description": "Mix 600 gram of seaweed + 1.5 kg humic acid in 600 liters of water and drench it to all crops except wheat.",
+      "plots": [],
+      "execs": [
+        {
+          "name": "Vela Ram",
+          "hindi": "वेला राम"
+        }
+      ],
+      "photo": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/5dafa833-b3c9-425d-93f7-85928abca120/1768801087472-mrousavy6935575540981853934.jpg",
+      "photoType": "IMAGE",
+      "photoLat": null,
+      "photoLon": null,
+      "photoCapturedAt": null,
+      "mediaCount": 1
+    },
+    {
+      "id": "event-12",
       "date": "19 Jan 2026",
       "category": "Irrigation",
-      "description": "Mix Jeevamrut 10L+ 1L NPK in 200 L of Water and give it with Irrigation",
+      "description": "Mix Jeevamrut 10L + 1L NPK in 200 L of water and apply with irrigation.",
       "plots": [],
       "execs": [
         {
@@ -212,14 +266,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-01-19 06:45:05.107+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-10",
+      "id": "event-13",
       "date": "31 Jan 2026",
       "category": "Spraying / Drenching",
-      "description": "Mix 12-liter cow urine + 600-gram amino acid in 120 liters of water and spray it to all wheat crop.",
+      "description": "Mix 12-liter cow urine + 600-gram amino acid in 120 liters of water and spray it to all wheat crops.",
       "plots": [],
       "execs": [
         {
@@ -231,14 +285,14 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-01-31 08:51:34.823+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-11",
+      "id": "event-14",
       "date": "13 Feb 2026",
       "category": "Spraying / Drenching",
-      "description": "Mix 12-liter Jeev Amrit + 12-liter Butter milk + 600 ml neem booster in 120 liters of water and spray it to all wheat crops.",
+      "description": "Mix 12-liter Jeev Amrit + 12-liter buttermilk + 600 ml neem booster in 120 liters of water and spray it to all wheat crops.",
       "plots": [],
       "execs": [
         {
@@ -250,11 +304,11 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-02-13 09:39:57.402+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     },
     {
-      "id": "event-12",
+      "id": "event-15",
       "date": "09 Apr 2026",
       "category": "Other",
       "description": "Wheat threshing",
@@ -269,7 +323,7 @@ window.PASSPORT_DATA = {
       "photoType": "IMAGE",
       "photoLat": null,
       "photoLon": null,
-      "photoCapturedAt": "2026-04-09 10:12:39.948+00",
+      "photoCapturedAt": null,
       "mediaCount": 1
     }
   ],
@@ -277,7 +331,7 @@ window.PASSPORT_DATA = {
     "Compost": [
       {
         "date": "28 Nov 2025",
-        "description": "Compost application in plot-6,7 for wheat",
+        "description": "Compost application for wheat",
         "execs": [
           {
             "name": "Vela Ram",
@@ -289,7 +343,7 @@ window.PASSPORT_DATA = {
     "Jeevamrit": [
       {
         "date": "12 Dec 2025",
-        "description": "15liters of Jeev Amrit + 1.5 liters of AMC application in wheat irrigation",
+        "description": "15 liters of Jeev Amrit + 1.5 liters of AMC application in wheat irrigation.",
         "execs": [
           {
             "name": "Nathu Lal",
@@ -299,7 +353,7 @@ window.PASSPORT_DATA = {
       },
       {
         "date": "19 Jan 2026",
-        "description": "Mix Jeevamrut 10L+ 1L NPK in 200 L of Water and give it with Irrigation",
+        "description": "Mix Jeevamrut 10L + 1L NPK in 200 L of water and apply with irrigation.",
         "execs": [
           {
             "name": "Vela Ram",
@@ -309,7 +363,7 @@ window.PASSPORT_DATA = {
       },
       {
         "date": "13 Feb 2026",
-        "description": "Mix 12-liter Jeev Amrit + 12-liter Butter milk + 600 ml neem booster in 120 liters of water and spray it to all wheat crops.",
+        "description": "Mix 12-liter Jeev Amrit + 12-liter buttermilk + 600 ml neem booster in 120 liters of water and spray it to all wheat crops.",
         "execs": [
           {
             "name": "Vela Ram",
@@ -321,7 +375,7 @@ window.PASSPORT_DATA = {
     "AMC": [
       {
         "date": "12 Dec 2025",
-        "description": "15liters of Jeev Amrit + 1.5 liters of AMC application in wheat irrigation",
+        "description": "15 liters of Jeev Amrit + 1.5 liters of AMC application in wheat irrigation.",
         "execs": [
           {
             "name": "Nathu Lal",
@@ -330,10 +384,30 @@ window.PASSPORT_DATA = {
         ]
       }
     ],
-    "Potassium humate": [
+    "Seaweed extract": [
+      {
+        "date": "17 Dec 2025",
+        "description": "Mix 500 gram of Humic Acid + 200 gram of seaweed extract in 200 liters of water and apply to wheat via drip.",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
       {
         "date": "05 Jan 2026",
-        "description": "Mix 200 g of Potassium humate and 75 g of seaweed extract in 100 liters of water and drench in wheat plot",
+        "description": "Mix 200 g of Potassium humate and 75 g of seaweed extract in 100 liters of water and drench in wheat",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
+      {
+        "date": "17 Jan 2026",
+        "description": "Mix 600 gram of seaweed + 1.5 kg humic acid in 600 liters of water and drench it to all crops except wheat.",
         "execs": [
           {
             "name": "Vela Ram",
@@ -342,10 +416,20 @@ window.PASSPORT_DATA = {
         ]
       }
     ],
-    "Seaweed extract": [
+    "Humic acid": [
       {
-        "date": "05 Jan 2026",
-        "description": "Mix 200 g of Potassium humate and 75 g of seaweed extract in 100 liters of water and drench in wheat plot",
+        "date": "17 Dec 2025",
+        "description": "Mix 500 gram of Humic Acid + 200 gram of seaweed extract in 200 liters of water and apply to wheat via drip.",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
+      {
+        "date": "17 Jan 2026",
+        "description": "Mix 600 gram of seaweed + 1.5 kg humic acid in 600 liters of water and drench it to all crops except wheat.",
         "execs": [
           {
             "name": "Vela Ram",
@@ -356,8 +440,18 @@ window.PASSPORT_DATA = {
     ],
     "Amino acid": [
       {
+        "date": "19 Dec 2025",
+        "description": "Mix 1 kg of Amino Acid + 200 gram of PDR in 200 liters of water and spray it to wheat.",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      },
+      {
         "date": "15 Jan 2026",
-        "description": "Mix 2L Cow Urine and 200 gms Amino acid in 75 L of Water and Spray to Wheat crop",
+        "description": "Mix 2L cow urine and 200 gms amino acid in 75 L of water and spray to wheat crop.",
         "execs": [
           {
             "name": "Vela Ram",
@@ -367,7 +461,31 @@ window.PASSPORT_DATA = {
       },
       {
         "date": "31 Jan 2026",
-        "description": "Mix 12-liter cow urine + 600-gram amino acid in 120 liters of water and spray it to all wheat crop.",
+        "description": "Mix 12-liter cow urine + 600-gram amino acid in 120 liters of water and spray it to all wheat crops.",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      }
+    ],
+    "PDR": [
+      {
+        "date": "19 Dec 2025",
+        "description": "Mix 1 kg of Amino Acid + 200 gram of PDR in 200 liters of water and spray it to wheat.",
+        "execs": [
+          {
+            "name": "Vela Ram",
+            "hindi": "वेला राम"
+          }
+        ]
+      }
+    ],
+    "Potassium humate": [
+      {
+        "date": "05 Jan 2026",
+        "description": "Mix 200 g of Potassium humate and 75 g of seaweed extract in 100 liters of water and drench in wheat",
         "execs": [
           {
             "name": "Vela Ram",
@@ -379,7 +497,7 @@ window.PASSPORT_DATA = {
     "Cow urine": [
       {
         "date": "15 Jan 2026",
-        "description": "Mix 2L Cow Urine and 200 gms Amino acid in 75 L of Water and Spray to Wheat crop",
+        "description": "Mix 2L cow urine and 200 gms amino acid in 75 L of water and spray to wheat crop.",
         "execs": [
           {
             "name": "Vela Ram",
@@ -389,7 +507,7 @@ window.PASSPORT_DATA = {
       },
       {
         "date": "31 Jan 2026",
-        "description": "Mix 12-liter cow urine + 600-gram amino acid in 120 liters of water and spray it to all wheat crop.",
+        "description": "Mix 12-liter cow urine + 600-gram amino acid in 120 liters of water and spray it to all wheat crops.",
         "execs": [
           {
             "name": "Vela Ram",
@@ -401,7 +519,7 @@ window.PASSPORT_DATA = {
     "NPK": [
       {
         "date": "19 Jan 2026",
-        "description": "Mix Jeevamrut 10L+ 1L NPK in 200 L of Water and give it with Irrigation",
+        "description": "Mix Jeevamrut 10L + 1L NPK in 200 L of water and apply with irrigation.",
         "execs": [
           {
             "name": "Vela Ram",
@@ -413,7 +531,7 @@ window.PASSPORT_DATA = {
     "Buttermilk": [
       {
         "date": "13 Feb 2026",
-        "description": "Mix 12-liter Jeev Amrit + 12-liter Butter milk + 600 ml neem booster in 120 liters of water and spray it to all wheat crops.",
+        "description": "Mix 12-liter Jeev Amrit + 12-liter buttermilk + 600 ml neem booster in 120 liters of water and spray it to all wheat crops.",
         "execs": [
           {
             "name": "Vela Ram",
@@ -425,7 +543,7 @@ window.PASSPORT_DATA = {
     "Neem booster": [
       {
         "date": "13 Feb 2026",
-        "description": "Mix 12-liter Jeev Amrit + 12-liter Butter milk + 600 ml neem booster in 120 liters of water and spray it to all wheat crops.",
+        "description": "Mix 12-liter Jeev Amrit + 12-liter buttermilk + 600 ml neem booster in 120 liters of water and spray it to all wheat crops.",
         "execs": [
           {
             "name": "Vela Ram",
@@ -436,77 +554,91 @@ window.PASSPORT_DATA = {
     ]
   },
   "inputInfo": {
-    "Compost": "Decomposed organic matter used as a soil conditioner and slow-release fertilizer.",
-    "Jeevamrit": "A traditional fermented liquid biofertilizer (cow dung, cow urine, jaggery, pulse flour and soil) used in natural farming to build up soil microbial activity and nutrient availability.",
-    "AMC": "A liquid culture/consortia input applied with irrigation on this farm; the acronym isn't expanded in the farm record.",
-    "Potassium humate": "A humic-acid-based soil conditioner and biostimulant that improves nutrient uptake and root development.",
-    "Seaweed extract": "A biostimulant derived from marine algae, used to support root growth and stress tolerance.",
-    "Amino acid": "A foliar biostimulant supplying free amino acids to support protein synthesis, nutrient uptake and recovery from stress.",
-    "Cow urine": "A traditional natural-farming input (gomutra), used diluted as a mild pest deterrent and growth promoter.",
-    "NPK": "A nitrogen-phosphorus-potassium fertilizer or nutrient consortia, the standard macronutrient feed for crop growth.",
-    "Buttermilk": "A traditional fermented dairy by-product (chaas) sometimes used diluted as a natural fungicidal/pest-deterrent spray.",
-    "Neem booster": "A neem-based biopesticide and growth-booster formulation."
+    "Compost": "Farmyard manure decomposed using microbial cultures. It acts as a source of NPK and trace nutrients, provides beneficial microbial biomass, and improves soil texture and condition.",
+    "Jeevamrit": "A liquid organic fertilizer based on cow dung and cow urine that contains beneficial microbes. It improves soil microflora and enhances plant nutrition.",
+    "AMC": "A beneficial microbial consortium developed by the IIHR. It contains nitrogen-fixing, phosphate-solubilizing, zinc-solubilizing, and plant growth-promoting microorganisms.",
+    "Seaweed extract": "A marine algae extract rich in alginic acid and trace micronutrients. It aids in stress management, improves overall plant growth, and promotes better flowering and fruiting.",
+    "Humic acid": "An organic powder soil amendment that promotes healthy root development and improves early plant establishment.",
+    "Amino acid": "A water-soluble powder formulation rich in amino acids that also serves as a source of nitrogen. It is used to support plant protein synthesis and stress tolerance.",
+    "PDR": "A natural source of potassium derived from red algae (Rhodophytes) that also possesses inherent plant growth-promoting properties.",
+    "Potassium humate": "A powdered plant nutrient containing humic acid and potassium. It serves as a soil amendment to enhance plant nutrition and vigor.",
+    "Cow urine": "A natural source of nitrogen that also possesses antimicrobial properties to improve overall crop health.",
+    "NPK": "A beneficial microbial consortium that biologically fixes atmospheric nitrogen, solubilizes phosphorus, and mobilizes potassium to make these essential nutrients readily available to plants.",
+    "Buttermilk": "Well-fermented buttermilk contains bacterial enzymes that act as natural antibiotics.",
+    "Neem booster": "A neem-based botanical product used to control insect pests."
   },
   "inputPhotos": {
     "Compost": {
       "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/bc823932-7f97-4b84-9ce5-efff18302e08/1764326609374-mrousavy997697673827895640.jpg",
       "type": "IMAGE",
       "date": "28 Nov 2025",
-      "labRef": "UC-LAB-2899"
+      "labRef": "UC-LAB-1310"
     },
     "Jeevamrit": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/0e33a831-f7b0-427c-a628-bfb7af26b153/1770975597025-mrousavy1172902892681404771.jpg",
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/fbc23d60-170f-401b-a7bc-0477278747dc/1765524652478-mrousavy1862597393863824322.jpg",
       "type": "IMAGE",
-      "date": "13 Feb 2026",
-      "labRef": "UC-LAB-3935"
+      "date": "12 Dec 2025",
+      "labRef": "UC-LAB-7041"
     },
     "AMC": {
       "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/fbc23d60-170f-401b-a7bc-0477278747dc/1765524652478-mrousavy1862597393863824322.jpg",
       "type": "IMAGE",
       "date": "12 Dec 2025",
-      "labRef": "UC-LAB-3219"
+      "labRef": "UC-LAB-8976"
+    },
+    "Seaweed extract": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/a4ba9d7a-ce2f-41d4-9482-f9cc5ebe564b/1765961614352-mrousavy3736501139109122271.jpg",
+      "type": "IMAGE",
+      "date": "17 Dec 2025",
+      "labRef": "UC-LAB-6222"
+    },
+    "Humic acid": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/a4ba9d7a-ce2f-41d4-9482-f9cc5ebe564b/1765961614352-mrousavy3736501139109122271.jpg",
+      "type": "IMAGE",
+      "date": "17 Dec 2025",
+      "labRef": "UC-LAB-9087"
+    },
+    "Amino acid": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/d0d92374-068b-448d-9f49-1238ce18364a/1766210169757-mrousavy2930177104243449590.jpg",
+      "type": "IMAGE",
+      "date": "19 Dec 2025",
+      "labRef": "UC-LAB-1519"
+    },
+    "PDR": {
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/d0d92374-068b-448d-9f49-1238ce18364a/1766210169757-mrousavy2930177104243449590.jpg",
+      "type": "IMAGE",
+      "date": "19 Dec 2025",
+      "labRef": "UC-LAB-7369"
     },
     "Potassium humate": {
       "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/adb1afa4-f69a-471d-8849-507161f42f11/1767608050307-mrousavy8495842759605236202.jpg",
       "type": "IMAGE",
       "date": "05 Jan 2026",
-      "labRef": "UC-LAB-7151"
-    },
-    "Seaweed extract": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/adb1afa4-f69a-471d-8849-507161f42f11/1767608050307-mrousavy8495842759605236202.jpg",
-      "type": "IMAGE",
-      "date": "05 Jan 2026",
-      "labRef": "UC-LAB-1984"
-    },
-    "Amino acid": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/3c96969b-a388-4dac-a150-a543e2f6e275/1769849494454-mrousavy7573061006578218760.jpg",
-      "type": "IMAGE",
-      "date": "31 Jan 2026",
-      "labRef": "UC-LAB-8930"
+      "labRef": "UC-LAB-9800"
     },
     "Cow urine": {
-      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/3c96969b-a388-4dac-a150-a543e2f6e275/1769849494454-mrousavy7573061006578218760.jpg",
+      "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/cf416789-ab27-4040-9b64-74981d220ea5/1768471445668-mrousavy3755878903521947736.jpg",
       "type": "IMAGE",
-      "date": "31 Jan 2026",
-      "labRef": "UC-LAB-7850"
+      "date": "15 Jan 2026",
+      "labRef": "UC-LAB-9924"
     },
     "NPK": {
       "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/0ab0134b-c3be-48ad-8390-93a1c8745b57/1768805104637-mrousavy3374587316796260571.jpg",
       "type": "IMAGE",
       "date": "19 Jan 2026",
-      "labRef": "UC-LAB-9506"
+      "labRef": "UC-LAB-6140"
     },
     "Buttermilk": {
       "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/0e33a831-f7b0-427c-a628-bfb7af26b153/1770975597025-mrousavy1172902892681404771.jpg",
       "type": "IMAGE",
       "date": "13 Feb 2026",
-      "labRef": "UC-LAB-3335"
+      "labRef": "UC-LAB-2124"
     },
     "Neem booster": {
       "url": "https://uncompromised-prod-bucket.s3.ap-south-1.amazonaws.com/farmTaskProof/0e33a831-f7b0-427c-a628-bfb7af26b153/1770975597025-mrousavy1172902892681404771.jpg",
       "type": "IMAGE",
       "date": "13 Feb 2026",
-      "labRef": "UC-LAB-9174"
+      "labRef": "UC-LAB-1455"
     }
   }
 };
